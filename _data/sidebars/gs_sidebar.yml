@@ -3,17 +3,17 @@ url: /index.html
 children:
 
 - title: 'Building an API proxy'
-  url: /Proxy.html
+  url: getting-started/Proxy.html
   output: 'web'
 
 - title: 'Building microservices'
-  url: /Microservices.html
+  url: getting-started/Microservices.html
   output: 'web'
 
 - title: 'Organizing APIs'
-  url: /Organizing.html
+  url: getting-started/Organizing.html
   output: 'web'
 
 - title: 'Glossary'
-  url: /Glossary.html
+  url: getting-started/Glossary.html
   output: 'web'
