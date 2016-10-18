@@ -68,7 +68,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: lb2_sidebar
+      sidebar: gs_sidebar
   -
     scope:
       path: ""
@@ -86,7 +86,7 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: gs_sidebar
 
 # these are defaults used for the frontmatter for these file types
 
@@ -96,5 +96,5 @@ sidebars:
 description: "Getting started with IBM API Connect"
 # the description is used in the feed.xml file
 
-# needed for sitemap.xml file only
-url: https://developer.ibm.com/apiconnect/
+# url: ibm-apiconnect.github.io
+# baseurl: /getting-started

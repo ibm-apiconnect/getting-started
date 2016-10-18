@@ -4,7 +4,7 @@ toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: getting-started/proxy.html
+permalink: proxy.html
 summary:
 ---
 ### Creating your first Assembly

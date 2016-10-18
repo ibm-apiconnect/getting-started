@@ -4,7 +4,7 @@ toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: /glossary.html
+permalink: glossary.html
 summary:
 ---
 
