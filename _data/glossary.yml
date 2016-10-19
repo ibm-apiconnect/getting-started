@@ -1,11 +1,71 @@
-jekyll_platform: "Jekyll is a static site generator that builds sites using most modern web technologies."
+apic_tool:
+  term: "apic"
+  definition: "The IBM API Connect command-line tool.  It provides commands to create, manage, and secure APIs."
 
-fractious: "Like a little mischevious child, full of annoying and constant trouble."
+assembly:
+  term: assembly
+  definition: "Application programming interface that provides rich functionality for interacting with an application: makes side calls to external services and then transforms and aggregates the response before a response is relayed to the calling application."
 
-gratuitous: "Something that is unwarranted and uncouth, like the social equivalent of a flagrant foul."
+api_def:
+  term: "API defintion"
+  definition: "Specification of a REST API encapsulated by an OpenAPI (Swagger) file, in YAML format.  Includes enumeration of paths (endpoints), parameters, responses, security configuration, and other API settings."
 
-haughty: "Proud and flaunting it. Holding your head high up like a snooty, too-good-for-everything rich person."
+api_designer:
+  term: "API Designer"
+  definition: "Graphical tool in the API Connect developer toolkit for creating, editing, and publishing APIs and LoopBack projects."
 
-impertinent: "Someone acting rude and insensitive to others."
+api_proxy:
+  term: "API Proxy"
+  definition: "Application programming interface that forwards requests to a user-defined back-end resource and relays responses back to the calling application."
 
-intrepid: "Brave and courageous especially in a difficult, dangerous situation."
+assembly:
+  term: "assembly"
+  definition: "Application programming interface that provides rich functionality for interacting with an application: makes side calls to external services and then transforms and aggregates the response before a response is relayed to the calling application."
+
+catalog:
+  term: "Catalog"
+  definition: "A staging target that behaves as a logical partition of the gateway and the Developer Portal. The URLs for API calls and for the Developer Portal are specific to a particular catalog."
+
+gateway:
+  term: "gateway"
+  definition: "Software component that processes and manages security protocols and stores relevant user and appliance authentication data and provides assembly functions that enable APIs to integrate with endpoints such as databases or HTTP-based endpoints.  API Connect includes the microgateway for local testing and development and the DataPower Gateway for production."
+
+micro_gateway:
+  term: "Micro Gateway"
+  definition: "Gateway built on Node.js that provides enforcement for the authentication, authorization, and flow requirements of an API."
+
+dp_gateway:
+  term: "DataPower Gateway"
+  definition: "Production-grade gateway deployed on a virtual or physical DataPower appliance with more policies available than the Micro Gateway and can handle enterprise level complex integration."
+
+microservice:
+  term: "microservice"
+  definition: "Approach for service-oriented architectures (SOA) used to build flexible, fine-grained,  independently-deployable software systems that communicate with each other over a network."
+
+openapi:
+  term: "OpenAPI"
+  definition: "Specification (also known as the Swagger specification) for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services."
+
+loopback:
+  term: "LoopBack"
+  definition: "Highly-extensible, open-source Node.js framework based on Express that enables you to create dynamic end-to-end REST APIs with little or no coding.  LoopBack applications consist of models, and application logic, connected to back-end data stores via connectors."
+
+plan:
+  term: "Plan"
+  definition: "Packaging construct by which APIs are made available to developers. A Plan makes available a collection of operations from one or more APIs, and is published to communities of application developers. A Plan carries with it a collection of policy settings."
+
+product:
+  term: "Product"
+  definition: "Grouping of APIs intended for a particular use. Products contain Plans, which can be used to differentiate between different offerings. You can create Plans only within Products, and these Products are then published in a Catalog."
+
+project:
+  term: "Project"
+  definition: "TBD"
+
+swagger:
+  term: "Swagger"
+  definition: "Previous name of the OpenAPI specification."
+
+yaml:
+  term: "YAML"
+  definition: "Human-readable data serialization language that API Connect uses to encapsulate API definitions."

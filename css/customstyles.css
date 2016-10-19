@@ -591,7 +591,7 @@ span.otherProgrammingLanguages {
 }
 
 a[data-toggle="tooltip"] {
-    color: #649345;
+/*   color: #649345; */
     font-style: italic;
     cursor: default;
 }
@@ -1166,5 +1166,5 @@ pre.highlight {margin-top: 0;}
 
 td pre {
   margin-top: 0;
-  margin-bottom: 0;  
+  margin-bottom: 0;
   }
