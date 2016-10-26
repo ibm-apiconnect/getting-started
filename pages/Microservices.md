@@ -1,6 +1,5 @@
 ---
 title: Building microservices
-toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
