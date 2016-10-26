@@ -1,6 +1,5 @@
 ---
 title: Building an API proxy
-toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
