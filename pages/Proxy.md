@@ -9,9 +9,12 @@ summary:
 ### Creating your first Assembly
 
 1. Create API
-   - Define Swagger definition
-   - Define operation
-   - What this does: Creates Product, creates client ID policy, creates invoke policy
+{% include image.html file="Add-a-new-API.png" max-width="400" alt="Add a new API" %}
+{% include image.html file="Add-a-new-API-2.png" max-width="400" alt="Add a new API - step 2" %}
+   - Define Swagger definition (don't need Product at this point)
+   - Define path
+   {% include image.html file="Assembly-editor-paths.png" max-width="600" alt="Edit paths" %}
+   - What this does: Creates client ID policy, creates invoke policy
 1. Wire up proxy
    - Edit host and path API properties.
    - Path
@@ -20,7 +23,7 @@ summary:
 1. Run using test tool
    - Select product
    - Select catalog and test app
-   - Select operationand params
+   - Select operation and params
    - Expand debug pane
 1. `curl` the new endpoint.  
 
@@ -49,4 +52,4 @@ Deploying Assemblies to Bluemix
 
 TBD
 
-### Deploying Assemblies to Bluemix
+### Deploying an assembly to Bluemix
