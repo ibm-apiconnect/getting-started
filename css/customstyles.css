@@ -523,6 +523,11 @@ h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
     color: white;
 }
 
+.nav-tabs > li > a:hover {
+  background-color: #a9d9ef;
+  color: white;
+}
+
 ol li ol li {list-style-type: lower-alpha;}
 ol li ul li {list-style-type: disc;}
 
@@ -531,11 +536,6 @@ li img {clear:both; }
 div#toc ul li ul li {
     list-style-type: none;
     margin: 5px 0px 0px 0px;
-}
-
-.tab-content {
-    padding: 15px;
-    background-color: #FAFAFA;
 }
 
 span.tagTitle {font-weight: 500;}
@@ -1168,3 +1168,20 @@ td pre {
   margin-top: 0;
   margin-bottom: 0;
   }
+
+/* Navtabs customization */
+
+.tab-content {
+    padding: 15px;
+    background-color: #FAFAFA;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    margin-top: -10px;
+}
+
+.nav-tabs { border-bottom: none;}
+
+.tab-content { padding-top: 0;}
+/*
+.tab-pane > h2 { margin-top: 0; }
+*/

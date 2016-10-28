@@ -15,7 +15,7 @@ summary: IBM API Connect is an end-to-end API management solution for creating, 
 
 NOTE: This site focuses on using API Connect on BlueMix with the DataPower Gateway.
 
-{% include tip.html content="The source of this site is in the (ibm-apiconnect/getting-started)[https://github.com/ibm-apiconnect/getting-started] GitHub repository.
+{% include tip.html content="The source of this site is in the [ibm-apiconnect/getting-started](https://github.com/ibm-apiconnect/getting-started) GitHub repository.
 " %}
 
 ## Demo of tooltips
@@ -23,3 +23,19 @@ NOTE: This site focuses on using API Connect on BlueMix with the DataPower Gatew
 Use the {% include tooltip.html term="apic" %} CLI or the {% include tooltip.html term="api_designer" %} GUI to create your LoopBack app.
 
 Create an {% include tooltip.html term="api_def" %} to specify you API's endpoints.
+
+## Demo of navtabs
+
+{% include navtab.html
+designer="Do this in API Designer...
+
+- One
+- Two
+- Three
+"
+apic="Do this in `apic`:
+
+- One
+- Two
+- Three
+" %}
