@@ -13,7 +13,10 @@ summary: IBM API Connect is an end-to-end API management solution for creating, 
 
 **Learn the basics of API Connect by using these guides to build micro services and API  proxies.**
 
-NOTE: _Must use DataPower GW_
+NOTE: This site focuses on using API Connect on BlueMix with the DataPower Gateway.
+
+{% include tip.html content="The source of this site is in the (ibm-apiconnect/getting-started)[https://github.com/ibm-apiconnect/getting-started] GitHub repository.
+" %}
 
 ## Demo of tooltips
 
