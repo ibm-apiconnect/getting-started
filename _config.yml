@@ -13,6 +13,7 @@ company_name: IBM / StrongLoop
 
 github_editme_path:
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+https://github.com/ibm-apiconnect/getting-started/blob/gh-pages/
 
 google_analytics:
 
