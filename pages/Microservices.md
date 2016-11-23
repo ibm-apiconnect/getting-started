@@ -6,7 +6,7 @@ sidebar: gs_sidebar
 permalink: microservices.html
 summary:
 ---
-### Creating a Hello World Micro Service
+### Creating your first microservice
 
 1. Create memory data source
 1. Create a model and properties
