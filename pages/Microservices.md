@@ -3,7 +3,7 @@ title: Building microservices
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: microservices.html
+permalink: /Microservices.html
 summary:
 ---
 ### Creating your first microservice
@@ -14,7 +14,7 @@ summary:
 1. Test with Explorer
    - Show the generated Swagger
 
-### Orchestrating SOAP services with LoopBack 
+### Orchestrating SOAP services with LoopBack
 
 See [Turn SOAP into REST APIs with LoopBack](https://strongloop.com/strongblog/soap-into-rest-apis-with-loopback-node-js/).
 

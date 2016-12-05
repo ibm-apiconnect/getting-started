@@ -4,7 +4,7 @@ toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: glossary.html
+permalink: /Glossary.html
 summary: Definitions of common terms used with API Connect.
 ---
 

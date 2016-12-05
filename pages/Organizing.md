@@ -4,7 +4,7 @@ toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: organizing.html
+permalink: /Organizing.html
 summary:
 ---
 ### Version controlling your API Connect Project

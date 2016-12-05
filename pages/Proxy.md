@@ -1,9 +1,9 @@
 ---
-title: Building an API proxy
+title: Creating an API proxy
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: proxy.html
+permalink: /Proxy.html
 summary:
 ---
 ### Creating your first Assembly

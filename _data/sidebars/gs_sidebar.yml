@@ -2,18 +2,18 @@ title: Getting started
 url: index.html
 children:
 
-- title: 'Building an API proxy'
-  url: proxy.html
+- title: 'Creating an API proxy'
+  url: Proxy.html
   output: 'web'
 
-- title: 'Building microservices'
-  url: microservices.html
+- title: 'Creating microservices'
+  url: Microservices.html
   output: 'web'
 
 - title: 'Organizing APIs'
-  url: organizing.html
+  url: Organizing.html
   output: 'web'
 
 - title: 'Glossary'
-  url: glossary.html
+  url: Glossary.html
   output: 'web'
