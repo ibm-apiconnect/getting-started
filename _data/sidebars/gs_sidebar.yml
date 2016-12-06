@@ -9,7 +9,20 @@ children:
 - title: 'Creating microservices'
   url: Microservices.html
   output: 'web'
+  children:
 
+  - title: 'Creating your first microservice'
+    url: Creating-your-first-microservice.html
+    output: 'web'
+
+  - title: 'Orchestrating SOAP services with LoopBack'
+    url: Orchestrating-SOAP-LoopBack.html
+    output: 'web'
+
+  - title: 'Publishing your API to Bluemix'
+    url: Publishing-to-Bluemix.html
+    output: 'web'
+        
 - title: 'Organizing APIs'
   url: Organizing.html
   output: 'web'

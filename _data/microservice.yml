@@ -1,0 +1,49 @@
+create_project:
+  title: Create a new project
+  summary: A LoopBack project (or "LoopBack app") is a Node.js application that automatically comes with a REST API.  It consists of models, data sources, and you can extend it further by adding Node.js application logic.  For more information see [LoopBack documentation](http://loopback.io/doc/en/lb2/).
+  caveat: You need internet access to follow this tutorial.
+  project_pane_open: Click to open the projects pane.
+  create_project: Click to create a new project.
+  project_type: Choose **Create LoopBack Project**.
+  project_dialog: <ul><li> For <b>Project Template</b>, choose **empty-server**.</li><li> Enter a display name for your project&#58; &quot;Getting started&quot; or something else if you prefer.</li><li> Click **Browse** and choose the directory in which to create the new project.</li><li> Click <b>Add</b>. </li></ul><p>  API Designer will create a new LoopBack project for you.  It may take a little while because it&apos;s installing all your project&apos;s dependencies from npm.</p>
+
+create_datasource:
+  title: Create a new data source
+  summary: A data source connects your microservice to a back-end data store such as a database, a SOAP service, or REST API. A project may have any number of data sources.
+  display_datasources: Click here to display all your data sources.  Of course, if you haven't created any data sources yet, you won't see any!
+  add_ds: Click to add a new data source.
+  name_ds: Type a name for your data source.  Enter "gs-datasource" or use something else if you prefer. Then click **New**.
+  ds_dialog: For now, leave all the defaults here.  The "in-memory db" connector stores data in memory for development and testing.  Later, you can change this to MongoDB, MySQL, or [any LoopBack data source connector](http://loopback.io/doc/en/lb2/Connectors-reference.html).
+  return_ds_view: Click to return to the Data Sources view.
+
+create_model:
+  title: Create a new model
+  summary: A LoopBack model represents a back-end data structure such as a database table.  A model is a JavaScript object with both Node and REST APIs.
+  display_models: Click to display the Models view.
+  add_models: Click to add a new model.
+  name_model: Enter the model name.  Type "CoffeeShop" or a different name if you prefer.
+  model_dialog: Connect the model to the data source you just created, "gs-datasource" or the name you provided.
+
+add_props:
+  title: Add properties to the model
+  summary: A model has one or more properties that represent data fields or records.
+  add_prop: Click to add a new property to your model.
+  property_settings: For **Property Name**, type "name" and select **Required**, which means it must always have a value.  For **Type**, select **string**.
+  add_prop2: Click to add another property.
+  prop_settings2: For **Property Name**, type "city".  For **Type**, select **string**.
+  save_model: Be sure to save your changes to the model!
+  return_models_view: Click to return to the Models view.
+
+run_project:
+  title: Run the project and try out your API
+  summary: You can run your LoopBack project right from API Designer and access it via the Micro Gateway.
+  run_project:  Click to run the project--API Designer runs your LoopBack project (application) and the Micro gateway locally.
+  note: Although &quot;app&quot; has a specific meaning in APIC context, API Designer refers to the LoopBack project as an &quot;Application&quot; in the bottom run controls bar.
+  logs: To see the live logs, click here.
+  explore: Click here to test out your API in API Explorer.
+  post: Click to try out a POST operation that adds a new record (model instance).
+  generate: Scroll down and click **Generate** to generate some dummy data.
+  call_op: Click **Call Operation** to call the POST operation.  If you see an error message, then click the link to open a new browser window,  accept the certificate, and try again.
+  get: Click to try out a query/GET operation to retrieve the record you just added.
+  call_op2: Scroll down and click to call the operation.
+  view_results: After clicking **Call Operation**, scroll down to see the results.
