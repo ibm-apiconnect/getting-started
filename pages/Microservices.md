@@ -3,7 +3,7 @@ title: Creating microservices
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: /Microservices.html
+permalink: Microservices.html
 summary: A microservice is a flexible, fine-grained, independently-deployable application with a REST API that communicates with other microservices via HTTP.
 ---
 

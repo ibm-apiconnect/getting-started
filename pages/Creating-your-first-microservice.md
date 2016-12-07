@@ -4,7 +4,7 @@ toc: false
 keywords:
 tags:
 sidebar: gs_sidebar
-permalink: /Creating-your-first-microservice.html
+permalink: Creating-your-first-microservice.html
 summary: You can quickly create a microservice in the API Designer using the LoopBack Node.js framework.
 ---
 
