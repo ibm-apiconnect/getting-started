@@ -7,31 +7,32 @@ sidebar: gs_sidebar
 permalink: Creating-your-first-microservice.html
 summary: You can quickly create a microservice in the API Designer using the LoopBack Node.js framework.
 ---
+{% assign content = site.data.microservice %}
+
+<div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i>
+<b>Note:</b> {{ content.intro.caveat }}
+</div>
 
 To create a microservice using LoopBack, follow these steps:
-
-{% assign content = site.data.microservice %}
 
 <ol>
 {% for item in content %}
   {% capture id %}{{item[0]}}{% endcapture %}
   {% assign content_item = content[{{id}}] %}
-  <li>
-    <b><a href="#{{content_item.title | replace: " ", "-" | downcase}} ">{{content_item.title }}</a></b>
-    <br/>{% capture summary_md %} {{content_item.summary }} {% endcapture %} {{ summary_md | markdownify }}
-  </li>
+  {% if content_item.title %}
+    <li>
+      <b><a href="#{{content_item.title | replace: " ", "-" | downcase}} ">{{content_item.title }}</a></b>
+      <br/>{% capture summary_md %} {{content_item.summary }} {% endcapture %} {{ summary_md | markdownify }}
+    </li>
+  {% endif %}
 {% endfor %}
 </ol>
 
 {% assign content = site.data.microservice.create_project %}
 
-## {{ content.title }}
+<!----------------------------------------------------------------------------->
 
-{{ content.summary }}
-
-<div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i>
-<b>Note:</b> {{ content.caveat }}
-</div>
+{% include section-head.md %}
 
 {{ content.project_pane_open }}
 
@@ -51,9 +52,9 @@ To create a microservice using LoopBack, follow these steps:
 
 {% assign content = site.data.microservice.create_datasource %}
 
-## {{ content.title }}
+<!----------------------------------------------------------------------------->
 
-{{ content.summary }}
+{% include section-head.md %}
 
 {{ content.display_datasources}}
 
@@ -75,9 +76,9 @@ To create a microservice using LoopBack, follow these steps:
 
 {% assign content = site.data.microservice.create_model %}
 
-## {{ content.title }}
+<!----------------------------------------------------------------------------->
 
-{{ content.summary }}
+{% include section-head.md %}
 
 {{ content.display_models}}
 
@@ -97,9 +98,9 @@ To create a microservice using LoopBack, follow these steps:
 
 {% assign content = site.data.microservice.add_props %}
 
-## {{ content.title }}
+<!----------------------------------------------------------------------------->
 
-{{ content.summary }}
+{% include section-head.md %}
 
 {{ content.add_prop }}
 
@@ -125,12 +126,9 @@ To create a microservice using LoopBack, follow these steps:
 
 {% assign content = site.data.microservice.run_project %}
 
-## {{ content.title }}
+<!----------------------------------------------------------------------------->
 
-{{ content.summary }}
-
-: Scroll down and click to call the operation.
-view_results: After clicking **Call Operation**, scroll down to see the results.
+{% include section-head.md %}
 
 {{ content.run_project }}
 
@@ -167,7 +165,6 @@ view_results: After clicking **Call Operation**, scroll down to see the results.
 ![](http://content.screencast.com/users/RandMck/folders/Jing/media/17c04db8-a06f-4bb7-9899-a1517fd6855a/00000552.png)
 
 {{ content.view_results }}
-After clicking **Call Operation**, scroll down to see the results.
 
 ![](http://content.screencast.com/users/RandMck/folders/Jing/media/a798e019-dba6-401b-812d-4f28d377dee6/00000534.png)
 
