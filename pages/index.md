@@ -1,11 +1,12 @@
 ---
 title: Getting Started with API Connect
-layout: page
+homepage: true
 toc: false
 keywords: ['API Connect', 'REST', 'API management']
-tags:
 sidebar: gs_sidebar
 permalink: /index.html
+redirect_from:
+  - "/getting-started/index.html"
 summary: IBM API Connect is an end-to-end API management solution for creating, running, managing, and securing APIs.
 ---
 
