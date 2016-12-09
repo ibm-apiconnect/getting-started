@@ -5,6 +5,23 @@ children:
 - title: 'Creating an API proxy'
   url: Proxy.html
   output: 'web'
+  children:
+
+  - title: Creating your first Assembly
+    url: First-assembly.html
+    output: 'web'
+
+  - title: Exposing SOAP services as REST APIs
+    url: Exposing-SOAP-services.html
+    output: 'web'
+
+  - title: Invoking a Micro Service from an API Proxy
+    url: Invoking-ms-from-proxy.html
+    output: 'web'
+
+  - title: Deploying an assembly to Bluemix
+    url: Deploying-assembly-to-bm.html
+    output: 'web'
 
 - title: 'Creating microservices'
   url: Microservices.html
@@ -22,11 +39,24 @@ children:
   - title: 'Publishing your API to Bluemix'
     url: Publishing-to-Bluemix.html
     output: 'web'
-        
+
 - title: 'Organizing APIs'
   url: Organizing.html
   output: 'web'
+  children:
 
-- title: 'Glossary'
+  - title: Creating your first Product
+    url: First-product-and-api.html
+    output: 'web'
+
+  - title: Versioning your API Connect Project
+    url: Versioning.html
+    output: 'web'
+
+  - title: Publishing a Product to a Catalog on Bluemix
+    url: Publish-product.html
+    output: 'web'
+
+- title: Glossary
   url: Glossary.html
   output: 'web'

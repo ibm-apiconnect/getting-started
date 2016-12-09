@@ -1,0 +1,2 @@
+intro:
+  summary: An assembly is an application programming interface that calls out to external services and then transforms and aggregates the responses before relaying a response to the calling application.
