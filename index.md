@@ -1,5 +1,6 @@
 ---
 title: Getting Started with API Connect
+layout: page
 homepage: true
 toc: false
 keywords: ['API Connect', 'REST', 'API management']

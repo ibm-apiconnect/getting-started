@@ -2,7 +2,6 @@
 title: Creating your first Product
 toc: false
 keywords:
-tags:
 sidebar: gs_sidebar
 permalink: /First-product.html
 summary:

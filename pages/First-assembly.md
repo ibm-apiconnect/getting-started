@@ -1,5 +1,5 @@
 ---
-title: Creating your first Assembly
+title: Creating your first assembly
 keywords:
 tags:
 sidebar: gs_sidebar

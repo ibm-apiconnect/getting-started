@@ -2,6 +2,10 @@ title: Getting started
 url: index.html
 children:
 
+- title: 'Installing Developer Toolkit'
+  url: Install.html
+  output: 'web'
+
 - title: 'Creating an API proxy'
   url: Proxy.html
   output: 'web'
@@ -46,7 +50,7 @@ children:
   children:
 
   - title: Creating your first Product
-    url: First-product-and-api.html
+    url: First-product.html
     output: 'web'
 
   - title: Versioning your API Connect Project
