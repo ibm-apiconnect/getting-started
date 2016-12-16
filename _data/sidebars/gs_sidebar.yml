@@ -6,6 +6,27 @@ children:
   url: Install.html
   output: 'web'
 
+- title: 'Running API Designer'
+  url: Run.html
+  output: 'web'
+
+- title: 'Creating microservices'
+  url: Microservices.html
+  output: 'web'
+  children:
+
+  - title: 'Creating your first microservice'
+    url: Creating-your-first-microservice.html
+    output: 'web'
+
+  - title: 'Orchestrating SOAP services with LoopBack'
+    url: Orchestrating-SOAP-LoopBack.html
+    output: 'web'
+
+  - title: 'Publishing your API to Bluemix'
+    url: Publishing-to-Bluemix.html
+    output: 'web'
+
 - title: 'Creating an API proxy'
   url: Proxy.html
   output: 'web'
@@ -25,23 +46,6 @@ children:
 
   - title: Deploying an assembly to Bluemix
     url: Deploying-assembly-to-bm.html
-    output: 'web'
-
-- title: 'Creating microservices'
-  url: Microservices.html
-  output: 'web'
-  children:
-
-  - title: 'Creating your first microservice'
-    url: Creating-your-first-microservice.html
-    output: 'web'
-
-  - title: 'Orchestrating SOAP services with LoopBack'
-    url: Orchestrating-SOAP-LoopBack.html
-    output: 'web'
-
-  - title: 'Publishing your API to Bluemix'
-    url: Publishing-to-Bluemix.html
     output: 'web'
 
 - title: 'Organizing APIs'

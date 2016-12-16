@@ -3,7 +3,7 @@ title: Getting Started with API Connect
 layout: page
 homepage: true
 toc: false
-keywords: ['API Connect', 'REST', 'API management']
+keywords: API Connect, REST, API management, microservices, Node.js, Java, Bluemix, SOAP
 sidebar: gs_sidebar
 permalink: /index.html
 redirect_from:

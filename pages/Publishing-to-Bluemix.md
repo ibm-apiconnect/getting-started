@@ -1,23 +1,30 @@
 ---
 title: Publishing your API to Bluemix
 keywords:
-tags:
+toc: false
 sidebar: gs_sidebar
 permalink: /Publishing-to-Bluemix.html
 summary: You can stage and publish a project to Bluemix using the API Designer.
 ---
+{% assign content = site.data.bluemix.intro %}
 
-You can stage and publish a project to Bluemix using the API Designer. Staging a project copies all the files to the target, but does not run the project application code. However, publishing a project copies all the project files to the target and runs the project application code.
+<div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i>
+<b>Note:</b> {{ content.caveat }}
+</div>
 
-## Configure Bluemix
+{{ content.summary }}
 
-1. Log in to Bluemix.  **NOTE**: The following procedure assumes you’re using the new Bluemix console.
-1. Click **APIs**.
-1. Click **API Connect Manager**.
-1. You’ll see the API Connect Bluemix service page. Select a plan and click **Create**. If you’re just checking it out, select the free “Essentials” plan.
-1. You’ll see the API Connect dashboard showing the Draft APIs view.
+{% assign content = site.data.bluemix.configure %}
+{% include section-head.md %}
 
-## Publish to Bluemix
+1. {{content.login}}  
+1. {{content.apis}}
+1. {{content.manager}}
+1. {{content.create_service}}
+1. {{content.dashboard}}
+
+{% assign content = site.data.bluemix.publish %}
+{% include section-head.md %}
 
 1. In the API Designer, click **Publish** then **Add and Manage Targets**.
 1. Click **Add IBM Bluemix target**.

@@ -1,0 +1,16 @@
+intro:
+  summary: You can stage and publish a project to Bluemix using the API Designer. Staging a project copies all the files to the target, but does not run the project application code. However, publishing a project copies all the project files to the target and runs the project application code.
+  caveat: The following procedure assumes you&apos;re using the new Bluemix console.
+
+configure:
+  title: Configuring Bluemix
+  summary: First you have to set up Bluemix for your app.
+  login: Log in to Bluemix.
+  apis: Click **APIs**.
+  manager: Click **API Connect Manager**.
+  create_service: You’ll see the API Connect Bluemix service page. Select a plan and click **Create**. If you’re just checking it out, select the free “Essentials” plan.
+  dashboard: You’ll see the API Connect dashboard showing the Draft APIs view.
+
+publish:
+  title: Publishing to Bluemix
+  summary: Once you&apos;ve configured Bluemix, then you can publish your API to Bluemix from API Designer.
