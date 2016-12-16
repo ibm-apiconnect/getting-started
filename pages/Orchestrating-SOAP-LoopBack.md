@@ -8,6 +8,14 @@ summary:
 
 See [Turn SOAP into REST APIs with LoopBack](https://strongloop.com/strongblog/soap-into-rest-apis-with-loopback-node-js/).
 
+### PLAN
+
+- Use [Zippopotamus](http://www.zippopotam.us/) REST API to get zip code for a given city
+- Use SOAP service http://wsf.cdyne.com/WeatherWS/Weather.asmx to get weather by zip
+
+Since one of these is REST, should rename this topic to Orchestrating web services....
+
+----
 Add a new data source to the "Getting Started" project.
 
 ![](http://content.screencast.com/users/RandMck/folders/Jing/media/e9231d8e-9c73-41e4-9a5c-85810f1d2899/00000538.png)
