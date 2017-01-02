@@ -1,0 +1,136 @@
+.header{
+  width:1440px;
+  height:64px;
+}
+
+div.downtheheader{
+  width: 1440px;
+  height: 280px;
+  background: #FFFFFF;
+  position: absolute;
+}
+
+.headertitle{
+  font-family: HelveticaNeue-Light;
+  font-size: 40px;
+  color: #2D3F49;
+  letter-spacing: 1.2px;
+  line-height: 54px;
+  column-width: 695px;
+  position: absolute;
+  white-space:nowrap;
+  margin-top: 97px;
+  margin-right:373px;
+  margin-left:372px;
+  margin-bottom: 129px;
+}
+
+.titledescription{
+
+  column-width: 858px;
+  position: absolute;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #152935;
+  margin-top: 159px;
+  margin-right:291px;
+  margin-left:291px;
+  margin-bottom: 97px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.row{
+  margin-top:388px;
+  margin-left:72px;
+}
+
+
+.thumbnail{        
+  width: 380px;
+  height: 360px;
+  background: #FFFFFF;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
+}
+
+
+p.microservice{
+  font-family: HelveticaNeue-Medium;
+  font-size: 26px;
+  color: #152935;
+  width: 250px;
+  height: 64px;
+  line-height: 32px;  
+  margin-top: 32px;
+  margin-left:32px;
+  display: block;
+}
+
+p.microservicedescription{
+  width: 270px;
+  height: 72px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #5A6872;
+  line-height: 24px;
+  margin-right:117px;
+  margin-left:32px;
+  margin-top:16px;
+  display: block;
+}
+
+#bottomline{
+  background: #F0F3F6;
+  width:355px;
+  height: 1px;
+  opacity: 100%
+  margin-top-top:111px;
+}
+
+#circle{
+  border-radius: 1px solid #DFE3E6;
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+#oval {
+  width: 56px;
+  height: 20px;
+  background: #DFE6EB;
+   border-radius: 13px;
+   margin-bottom: 32px;
+   margin-left: 32px;
+   margin-top: 16px;
+}
+
+#tutorialtext{
+font-family: HelveticaNeue;
+font-size: 12px;
+color: #394B54;
+line-height: 16px;
+width:39px;
+height: 17px;
+margin-left: 9px;
+}
+
+
+/*for settings icon
+#circle{
+  border: 1px solid #DFE3E6;
+  border-radius: 25px;
+  width:52px;
+  height: 52px;
+  margin-top: 0px;
+  margin-left: 53px;
+  margin-bottom: 285px;
+  float: right;
+  clear:both;
+}
+
+.glyphicon.glyphicon-cog{
+  width:32px;
+  height: 32px;
+  margin-right: 9px;
+  margin-top:32px;
+}
+*/
