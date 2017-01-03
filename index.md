@@ -21,8 +21,8 @@ summary: IBM API Connect is an end-to-end API management solution for creating, 
 
 New template pages:
 
-- [Home page](/proto/loopback_home.html)
-- [Other page](proto/loopback_tutorial.html)
+- [Home page](./proto/loopback_home.html)
+- [Other page](./proto/loopback_tutorial.html)
 
 ## Key Capabilities
 
