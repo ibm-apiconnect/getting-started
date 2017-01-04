@@ -1,13 +1,8 @@
 .header{
-  width:1440px;
-  height:64px;
 }
 
 div.downtheheader{
-  width: 1440px;
-  height: 123px;
-  background: #FFFFFF;
-  position: absolute;
+  background: #fff;
   display:block;
 }
 
@@ -38,11 +33,6 @@ font-size: 32px;
 color: #5A6872;
 letter-spacing: 0.27px;
 line-height: 40px;
-width: 433px;
-height: 40px;
-margin-left: 72px;
-margin-top: 7px;
-
 }
 
 #intro{
