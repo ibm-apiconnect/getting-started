@@ -4,6 +4,7 @@
 div.downtheheader{
   background: #fff;
   display:block;
+
 }
 
 .back{
@@ -29,6 +30,7 @@ list-style-type: none;
 .tutorialtitle{
 font-family: HelveticaNeue-Light;
 padding-top: 51px;
+padding-left: 72px;
 font-size: 32px;
 color: #5A6872;
 letter-spacing: 0.27px;
@@ -102,6 +104,16 @@ ul li span {
     color: black;
 }
 
+.wifi{
+  margin-top: 23px;
+  margin-left: 20px;
+  font-family: MaterialIcons-Regular;
+  font-size: 18px;
+  color: #42535C;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
 #internet{
 opacity: 0.8;
 font-family: HelveticaNeue-Medium;
@@ -111,6 +123,7 @@ line-height: 24px;
 width:429px;
 height: 24px;
 padding-top: 19px;
+margin-left: 12px;
 }
 
 #internettable{

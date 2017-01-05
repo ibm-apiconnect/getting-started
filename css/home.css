@@ -59,8 +59,8 @@ p.microservicedescription{
   background: #F0F3F6;
   width:355px;
   height: 1px;
-  opacity: 100%
-  margin-top-top:111px;
+  opacity: 100%;
+  margin-top:111px;
 }
 
 #circle{
@@ -89,24 +89,30 @@ height: 17px;
 margin-left: 9px;
 }
 
-
-/*for settings icon
 #circle{
   border: 1px solid #DFE3E6;
   border-radius: 25px;
   width:52px;
   height: 52px;
-  margin-top: 0px;
-  margin-left: 53px;
+  margin-top: 32px;
   margin-bottom: 285px;
   float: right;
   clear:both;
 }
 
-.glyphicon.glyphicon-cog{
-  width:32px;
-  height: 32px;
-  margin-right: 9px;
-  margin-top:32px;
+
+
+.icon{
+
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top:9px;
 }
-*/
+
+#thumbnail1{
+  margin-top: 20px;
+}
+
+#thumbnail1{
+  margin-top: 20px;
+}
