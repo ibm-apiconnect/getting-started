@@ -1,3 +1,7 @@
+.bodybackground{
+  background-color: #EEF0F2;
+}
+
 .header{
   background: #152934;
 }
@@ -57,12 +61,12 @@ div.downtheheader{
 }
 
 #intro{
-  margin-top:214px;
   font-family: HelveticaNeue-Light;
   font-size: 40px;
   color: #2D3F49;
   letter-spacing: 1.2px;
   line-height: 54px;
+  margin-top: 27px; 
 }
 
 #summary{
@@ -110,6 +114,19 @@ div.downtheheader{
   color: #152935;
   line-height: 24px;
   padding-bottom: 11px;
+}
+
+#tobrow1{
+  margin-top:86px;
+}
+
+#contentsselected{
+  color: #5AAAFA;
+  list-style-type: disc;
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom:13px;
 }
 
 #contents{
