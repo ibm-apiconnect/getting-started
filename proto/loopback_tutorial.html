@@ -8,40 +8,37 @@
     <script src="../js/bootstrap.min.js"></script>
     <title>Loopback Tutorial</title>
 </head>
-<body style="background-color: #EDEAE9">
-
+<body class="bodybackground">
 <div class="header">
-<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
-        <li> <a href="#" style="padding-top:21px;line-height:24px;opacity:0.69;font-family:HelveticaNeue-Medium;font-size: 18px;color:#FFFFFF;letter-spacing:0;">
+        <li> <p id="apiconnect">
             IBM API Connect
-         </a>
+         </p>
         </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#" style="padding-top:24px;font-family:HelveticaNeue-Bold;font-size:14px;color:#FFFFFF;line-height:24px;">
+      <li><a href="#" id="headeroptionsright">
             Blog
           </a>
       </li>
-      <li><a href="#" style="padding-top:24px;font-family:HelveticaNeue-Bold;font-size:14px;color:#FFFFFF;line-height:24px;">
+      <li><a href="#" id="headeroptionsright">
             Forum
           </a>
       </li>
       <li>
-        <a href="#" style="padding-top:24px;font-family:HelveticaNeue-Bold;font-size:14px;color:#FFFFFF;line-height:24px;">
+        <a href="#" id="headeroptionsright">
             Documentation
         </a>
       </li>
     </ul>
   </div>
-</nav>
 </div>
-
 
 <div class="downtheheader">
 <table>
 <tr>
+<td>
     <ul class="nav navbar-nav navbar-left">
       <li id="gettingstarted">
         <img src="../images/back.svg" class="back"/> 
@@ -50,22 +47,24 @@
       <p class="gs">Getting Started</p>
       </li>
       </ul>
+      </td>
 </tr>
 <tr>
+<td>
       <li id="gettingstarted">
 				 <p class="tutorialtitle">Creating your first microservice</p>
       </li>
+      </td>
 </tr>
 </table>
 
 </div>
 <div class="row">
   <div class="col-md-4">
-    <table style="border-collapse: collapse;margin-left: 72px;margin-top: 51px;">
+    <table id="tableborder">
       <th id="tabletitle">Table of Contents</th>
-      <tr class="tr" style="margin-top:86px;">
-        <td><ul><li style="color: #5AAAFA;list-style-type: disc;font-family: HelveticaNeue-Bold;font-size: 16px;
-line-height: 24px;padding-bottom:13px;"><span>Introduction</span></li></ul></td>
+      <tr id="tobrow1">
+        <td><ul><li  id = "contentsselected"><span>Introduction</span></li></ul></td>
       </tr>
       <tr>
         <td id="contents"><ul><li><span>Create a new project</span></li></ul></td>
@@ -86,14 +85,14 @@ line-height: 24px;padding-bottom:13px;"><span>Introduction</span></li></ul></td>
   </div>
 
 <div class="col-md-8">
-<p id="intro" style="margin-top: 27px;">Introduction</p>
+<p id="intro">Introduction</p>
 <div id="internettable">
     <ul class="nav navbar-nav navbar-left">
       <li>
         <img src="../images/ic_wifi_black_24px.svg" class="wifi"/> 
       </li>
-      <li>
-      <p id="internet">An internet connection is needed to complete this tutorial.</p>
+      <li class="internet">
+      <p>An internet connection is needed to complete this tutorial.</p>
       </li>
       </ul>
 </div>
