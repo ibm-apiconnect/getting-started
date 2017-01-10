@@ -60,6 +60,10 @@ div.downtheheader{
   align:left;
 }
 
+#table{
+  padding-left: 0;
+}
+
 .row{
   margin: 27px 15px 0;
 }
@@ -105,23 +109,12 @@ div.downtheheader{
   min-height: 48px;
 }
 
-#tableborder{
-  border-collapse: collapse;
-  margin-left: 72px;
-  margin-top: 51px;
-}
-
 #tabletitle{
   font-family: HelveticaNeue-Medium;
   font-size: 18px;
   color: #152935;
   line-height: 24px;
   margin-bottom:12px;
-
-}
-
-#tobrow1{
-  margin-top:86px;
 }
 
 #contentsselected{
