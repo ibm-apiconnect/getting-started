@@ -46,8 +46,33 @@ div.downtheheader{
   line-height: 24px;
 }
 
+.totoriallinks{
+  display: inline-flex;
+  float: left;
+  margin-bottom: 41px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+#view{
+  font-family: HelveticaNeue-Light;
+  font-size: 32px;
+  color: #2D3F49;
+  letter-spacing: 0.96px;
+  line-height: 54px;
+  margin-right: 20px;
+}
+
+#viewlink{
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  color: #5596E6;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
 .row{
-  margin: 50px 15px 0;
+  margin: 150px 15px 0;
 }
 
 .thumbnail{        
@@ -91,7 +116,6 @@ p.microservicedescription{
 
 #bottomline{
   background: #F0F3F6;
-  width:355px;
   margin:auto;
   height: 1px;
   opacity: 100%;
@@ -99,7 +123,6 @@ p.microservicedescription{
 
 #bottomlineinstall{
   background: #F0F3F6;
-  width:355px;
   margin:auto;
   height: 1px;
   opacity: 100%;
@@ -147,10 +170,10 @@ p.microservicedescription{
 }
 
 .downrow{
-  margin-top: 50px;
+  margin-top: 64px;
   background: #FFFFFF;
   box-shadow: 0 1px 0 0 #E0E5E7;
-  padding:64px;
+  padding: 64px;
 }
 
 #loveapidesigner{
