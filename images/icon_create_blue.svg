@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_create_blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.770666667 1.77066667 4.31911111 5.33333333 6.11111111 3.55555556 2.55555556 0"></polygon>
+        <rect id="path-3" x="0" y="0" width="16" height="14.2222222"></rect>
+        <polygon id="path-5" points="0.0106666667 7.12177778 3.54488889 10.6666667 10.6666667 3.55555556 7.11111111 0"></polygon>
+        <rect id="path-7" x="0" y="0" width="16" height="14.2222222"></rect>
+        <polygon id="path-9" points="0.763555556 4.32622222 4.344 2.55555556 2.55555556 0.767111111"></polygon>
+    </defs>
+    <g id="Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Documentation-/-Home" transform="translate(-97.000000, -1511.000000)">
+            <g id="benefits" transform="translate(0.000000, 1298.000000)">
+                <g id="benefit" transform="translate(92.000000, 210.000000)">
+                    <g id="icon_create_blue">
+                        <g id="Layer_1">
+                            <g id="_Group_">
+                                <g id="_Group_2" transform="translate(5.333333, 3.555556)">
+                                    <g id="_Group_3" transform="translate(8.111111, 1.777778)">
+                                        <g id="_Group_4">
+                                            <g id="_Group_5" transform="translate(0.000000, 0.000000)">
+                                                <g id="_Clip_Group_" transform="translate(10.666667, 0.000000)">
+                                                    <polygon id="_Clipping_Path_5" fill="#5596E6" points="0.770666667 1.77066667 4.31911111 5.33333333 6.11111111 3.55555556 2.55555556 0"></polygon>
+                                                    <g id="Clipped">
+                                                        <mask id="mask-2" fill="white">
+                                                            <use xlink:href="#path-1"></use>
+                                                        </mask>
+                                                        <g id="_Clipping_Path_"></g>
+                                                        <g id="_Clip_Group_2" mask="url(#mask-2)">
+                                                            <g transform="translate(-9.888889, 1.777778)">
+                                                                <rect id="_Clipping_Path_6" fill="#5596E6" x="0" y="0" width="16" height="14.2222222"></rect>
+                                                                <g id="Clipped" stroke-width="1" fill="none">
+                                                                    <mask id="mask-4" fill="white">
+                                                                        <use xlink:href="#path-3"></use>
+                                                                    </mask>
+                                                                    <g id="_Clipping_Path_2"></g>
+                                                                    <path d="M11.6604444,-0.238222222 C12.246746,0.131270717 12.6933419,0.685449989 12.9297778,1.33688889 C14.2865743,1.2029434 15.5703527,1.97566813 16.0871111,3.23733333 L17.3208889,2.00355556 L12.4248889,-2.88888889 L10.6008889,-1.06666667 C10.9192588,-0.926789357 11.2100561,-0.731118285 11.4595556,-0.488888889 C11.5315783,-0.409517315 11.5986672,-0.325804723 11.6604444,-0.238222222 L11.6604444,-0.238222222 Z" id="_Path_" fill="#5596E6" mask="url(#mask-4)"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="_Clip_Group_3" transform="translate(2.555556, 3.555556)">
+                                                    <polygon id="_Compound_Clipping_Path_2" fill="#5596E6" points="0.0106666667 7.12177778 3.54488889 10.6666667 10.6666667 3.55555556 7.11111111 0"></polygon>
+                                                    <g id="Clipped">
+                                                        <mask id="mask-6" fill="white">
+                                                            <use xlink:href="#path-5"></use>
+                                                        </mask>
+                                                        <g id="_Compound_Clipping_Path_"></g>
+                                                        <g id="_Clip_Group_4" mask="url(#mask-6)">
+                                                            <g transform="translate(-1.777778, -1.777778)">
+                                                                <rect id="_Clipping_Path_7" fill="#5596E6" x="-4.54747351e-13" y="-2.27373675e-13" width="16" height="14.2222222"></rect>
+                                                                <g id="Clipped" stroke-width="1" fill="none" transform="translate(-0.000000, -0.000000)">
+                                                                    <mask id="mask-8" fill="white">
+                                                                        <use xlink:href="#path-7"></use>
+                                                                    </mask>
+                                                                    <g id="_Clipping_Path_2"></g>
+                                                                    <g id="Group" mask="url(#mask-8)" fill="#5596E6">
+                                                                        <g transform="translate(1.777778, 0.000000)">
+                                                                            <path d="M9.76533333,7.93422222 C9.56805539,8.81375893 8.91586786,9.52086038 8.05511111,9.78844444 C7.58659978,10.1298242 7.01863564,10.307274 6.43911111,10.2933333 L6.38222222,10.2933333 L6.272,10.2933333 C5.71840353,10.3056579 5.17450929,10.1467116 4.71466667,9.83822222 C3.37787842,10.2736318 1.97328962,10.4633597 0.568888889,10.3982222 C0.202666667,10.3733333 -4.54747351e-13,10.288 -4.54747351e-13,10.1617778 L-4.54747351e-13,14.2222222 L12.4444444,14.2222222 L12.4444444,6.68088889 C12.4444444,7.08444444 10.7022222,7.51288889 9.76533333,7.93422222 Z" id="_Path_2"></path>
+                                                                            <path d="M11.1502222,1.33688889 C11.6159607,1.27844212 12.0889113,1.3396259 12.5244444,1.51466667 L12.5244444,0.0586666667 L10.2666667,0.0586666667 C10.6671263,0.400839593 10.9716271,0.841354784 11.1502222,1.33688889 L11.1502222,1.33688889 Z" id="_Path_3"></path>
+                                                                            <path d="M5.39555556,1.02222222 C5.45777778,0.666666667 5.14488889,-2.27373675e-13 5.33333333,-2.27373675e-13 L-4.54747351e-13,-2.27373675e-13 L-4.54747351e-13,4.40533333 C-4.54747351e-13,2.92444444 3.46666667,2.16888889 5.39555556,1.02222222 Z" id="_Path_4"></path>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="_Clip_Group_5" transform="translate(0.000000, 11.666667)">
+                                                    <polygon id="_Clipping_Path_8" fill="#5596E6" points="0.763555556 4.32622222 4.344 2.55555556 2.55555556 0.767111111"></polygon>
+                                                    <g id="Clipped">
+                                                        <mask id="mask-10" fill="white">
+                                                            <use xlink:href="#path-9"></use>
+                                                        </mask>
+                                                        <g id="_Clipping_Path_4"></g>
+                                                        <g id="_Clip_Group_6" mask="url(#mask-10)" fill="#5596E6">
+                                                            <g transform="translate(0.777778, -9.888889)" id="_Clipping_Path_9">
+                                                                <rect x="0" y="0" width="16" height="14.2222222"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <polygon id="_Path_5" fill="#5596E6" points="16 15.3102222 16 23.1111111 1.77777778 23.1111111 1.77777778 7.11111111 7.11111111 7.11111111 7.11111111 1.77777778 16 1.77777778 16 4.32888889 17.7777778 4.30933333 17.7777778 0 7.11111111 0 0 7.11111111 0 7.53244444 0 23.0222222 0 24.8888889 17.7777778 24.8888889 17.7777778 15.3315556"></polygon>
+                                </g>
+                                <rect id="_Rectangle_" x="0" y="0" width="32" height="32"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

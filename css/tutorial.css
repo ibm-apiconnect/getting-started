@@ -1,5 +1,5 @@
 .bodybackground{
-  background-color: #EEF0F2;
+  background-color: #F5F7FA;
 }
 
 .header{
@@ -25,14 +25,12 @@
 
 div.downtheheader{
   background: #fff;
-  display:block;
-
+  padding: 30px;
 }
 
 .back{
-  margin-top: 30px;
-  margin-left: 48px;
-
+  float: left;
+  margin-right: 8px;
 }
 
 .gs{
@@ -41,12 +39,10 @@ div.downtheheader{
   color: #3D70B2;
   letter-spacing: 0;
   line-height: 18px;
-  margin-top: 26px;
-  margin-left: 8px;
 }
 
 #gettingstarted{
-  list-style-type: none;
+  display: inline-flex;
 }
 
 .tutorialtitle{
@@ -56,16 +52,26 @@ div.downtheheader{
   color: #5A6872;
   letter-spacing: 0.27px;
   line-height: 40px;
-  margin-left: 72px;
+  margin-left: 20px;
   align:left;
 }
 
-#table{
+.table{
   padding-left: 0;
 }
 
+span.line{
+    position : absolute;
+    border :  solid #8C9BA5;
+    width: 2px;
+    height: 187px;
+    opacity: 0.14;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
 .row{
-  margin: 27px 55px 0;
+  margin: 27px 53px 0;
 }
 
 #intro{
@@ -74,7 +80,6 @@ div.downtheheader{
   color: #2D3F49;
   letter-spacing: 1.2px;
   line-height: 54px;
-
 }
 
 #summary{
@@ -146,7 +151,7 @@ ul li span {
     color: black;
 }
 
-.wifi{
+#wifi{
   margin-top: 19px;
   margin-left: 20px;
   font-family: MaterialIcons-Regular;
@@ -158,7 +163,7 @@ ul li span {
   float: left;
 }
 
-.internet{
+#internet{
   opacity: 0.8;
   font-family: HelveticaNeue-Medium;
   font-size: 16px;
@@ -167,7 +172,7 @@ ul li span {
   padding-top: 19px;
 }
 
-#internettable{
+.internetdiv{
   opacity: 0.4;
   background: #7CC7FF;
   border-radius: 3px;
@@ -182,3 +187,103 @@ ul li span {
   min-height: 629px;
 }
 
+.nextstep{
+  display: inline-flex; 
+  padding-top: 41px;
+  float: right;
+  clear: both;
+}
+
+#next{
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #152935;
+  line-height: 24px;
+  padding-right: 4px;
+}
+
+#navigate{
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  color: #5596E6;
+  line-height: 24px;
+}
+
+.proposechangediv{
+  margin-top: 127px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 0 #E0E5E7;
+  min-height: 121px;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.githubdiv{
+  display: inline-flex;
+}
+
+#git{
+  margin-right: 12px;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+#iffixing{
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #152935;
+  line-height: 24px;
+}
+
+.changesourcediv{
+  display: inline-flex;
+}
+
+#propose{
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #5A6872;
+}
+
+.downloadbar{
+  margin-top: 40px;
+  background: #3D70B2;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  min-height: 198px;
+  display: flex;
+  padding-bottom: 72px;
+}
+
+.contentdownload{
+  display: inline-flex;
+}
+
+#installinstruction{
+  font-family: HelveticaNeue-Light;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0.96px;
+  line-height: 54px;
+  margin-right: 63px;
+}
+
+#downloadbutton{
+  background: #FFFFFF;
+}
+
+.footer{
+  min-height: 152px;
+  padding: 64px;
+}
+
+#footertext{
+  margin-left: 32px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #5A6872;
+  line-height: 24px;
+}
