@@ -52,26 +52,26 @@ div.downtheheader{
   color: #5A6872;
   letter-spacing: 0.27px;
   line-height: 40px;
-  margin-left: 27px;
+  margin-left: 20px;
   align:left;
 }
 
 .table{
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 span.line{
     position : absolute;
     border :  solid #8C9BA5;
-    width: 2px;
+    border-width: 2px;
     height: 187px;
     opacity: 0.14;
-    margin-left: 12px;
-    margin-top: 10px;
+    margin-left: 13.49px;
+    margin-top: 9px;
 }
 
 .row{
-  margin: 27px 53px 0;
+  margin: 50px 32px 0;
 }
 
 #intro{
@@ -123,17 +123,26 @@ span.line{
   margin-top: 25px;
 }
 
-#contentsselected{
-  color: #5AAAFA;
+span#contentsselected{
   list-style-type: disc;
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   line-height: 24px;
   margin-bottom:13px;
-  margin-left: 30px;
+  padding-left: 8.5px;
+  color: black;
 }
 
-#contents{
+li#contentsselected{
+  font-size: 200%;
+  color: #5AAAFA;
+  list-style-type: disc;
+  line-height: 24px;
+  margin-bottom:13px;
+  margin-left: 34.7px;
+}
+
+li#contents{
   font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
@@ -142,13 +151,10 @@ span.line{
   margin-left: 30px;
 }
 
-ul li {
-    color: #8C9BA5;
-    list-style-type: disc;
-}
 
-ul li span {
+span#contents {
     color: black;
+    padding-left: 12px;
 }
 
 #wifi{
@@ -273,6 +279,14 @@ ul li span {
 
 #downloadbutton{
   background: #FFFFFF;
+}
+
+#buttonlabel{
+  font-family: HelveticaNeue-Medium;
+  font-size: 14px;
+  color: #2F5AA7;
+  letter-spacing: 0;
+  line-height: 14px;
 }
 
 .footer{
