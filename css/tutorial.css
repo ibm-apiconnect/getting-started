@@ -61,13 +61,13 @@ div.downtheheader{
 }
 
 span.line{
-    position : absolute;
-    border :  solid #8C9BA5;
-    border-width: 2px;
-    height: 187px;
-    opacity: 0.14;
-    margin-left: 13.49px;
-    margin-top: 9px;
+  position : absolute;
+  border : solid #8C9BA5;
+  border-width: 2px;
+  height: 187px;
+  opacity: 0.14;
+  margin-left: 13.49px;
+  margin-top: 9px;
 }
 
 .row{
