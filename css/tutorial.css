@@ -56,20 +56,6 @@ div.downtheheader{
   align:left;
 }
 
-.table{
-  padding-left: 0px;
-}
-
-span.line{
-  position : absolute;
-  border : solid #8C9BA5;
-  border-width: 2px;
-  height: 187px;
-  opacity: 0.14;
-  margin-left: 13.49px;
-  margin-top: 9px;
-}
-
 .row{
   margin: 50px 32px 0;
 }
@@ -114,47 +100,63 @@ span.line{
   min-height: 48px;
 }
 
+.table{
+  padding-left: 0px;
+}
+
+span.line{
+  position : absolute;
+  border : solid #8C9BA5;
+  border-width: 2px;
+  min-height: 195px;
+  opacity: 0.14;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+
 #tabletitle{
   font-family: HelveticaNeue-Medium;
   font-size: 18px;
   color: #152935;
   line-height: 24px;
-  margin-bottom:12px;
+  margin-bottom:11px;
   margin-top: 25px;
 }
 
 span#contentsselected{
-  list-style-type: disc;
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom:13px;
+  margin-bottom:12px;
   padding-left: 8.5px;
-  color: black;
+  color: #152935;
 }
 
 li#contentsselected{
-  font-size: 200%;
+  font-size: 16px;
   color: #5AAAFA;
-  list-style-type: disc;
   line-height: 24px;
   margin-bottom:13px;
   margin-left: 34.7px;
+  opacity: 100%;
 }
 
 li#contents{
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  color: #152935;
+  font-size: 8px;
+  color: #8C9BA5;
   line-height: 24px;
   padding-bottom:12px;
   margin-left: 30px;
+  opacity: 100%;
 }
 
 
 span#contents {
-    color: black;
-    padding-left: 12px;
+  padding-left: 12px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #152935;
+  line-height: 24px;
 }
 
 #wifi{
