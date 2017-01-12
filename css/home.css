@@ -1,5 +1,5 @@
 .bodybackground{
-  background-color: #EEF0F2;
+  background-color: #F5F7FA;
 }
 
 #apiconnect{
@@ -46,8 +46,32 @@ div.downtheheader{
   line-height: 24px;
 }
 
-.row{
-  margin: 50px 15px 0;
+.totoriallinks{
+  display: inline-flex;
+  float: left;
+  margin-top: 40px;
+  margin-left: 27px;
+}
+
+#view{
+  font-family: HelveticaNeue-Light;
+  font-size: 32px;
+  color: #2D3F49;
+  letter-spacing: 0.96px;
+  line-height: 54px;
+  margin-right: 20px;
+}
+
+#viewlink{
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  color: #5596E6;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.row#one{
+  margin: 150px 15px 0;
 }
 
 .thumbnail{        
@@ -91,7 +115,6 @@ p.microservicedescription{
 
 #bottomline{
   background: #F0F3F6;
-  width:355px;
   margin:auto;
   height: 1px;
   opacity: 100%;
@@ -99,7 +122,6 @@ p.microservicedescription{
 
 #bottomlineinstall{
   background: #F0F3F6;
-  width:355px;
   margin:auto;
   height: 1px;
   opacity: 100%;
@@ -144,4 +166,107 @@ p.microservicedescription{
   margin-right: 10px;
   margin-left: 10px;
   margin-top:13px;
+}
+
+.row#two{
+  margin-left:30px;
+  margin-right: 30px;
+  padding-bottom: 64px;
+}
+
+.downrow{
+  margin-top: 64px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 0 #E0E5E7;
+  padding-top: 64px;
+}
+
+#loveapidesigner{
+  font-family: HelveticaNeue-Light;
+  font-size: 32px;
+  color: #2D3F49;
+  letter-spacing: 0.96px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#trycloud{
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #5A6872;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.footericon{
+  margin-bottom: 19px;
+}
+
+.footericonsecure{
+  margin-bottom: 14px;
+}
+
+#titleforactionfooter{
+  font-family: HelveticaNeue-Bold;
+  font-size: 20px;
+  color: #394B54;
+  margin-bottom: 8px;
+}
+
+#descriptionforaction{
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #5A6872;
+  line-height: 24px;
+}
+
+.downloadbar{
+  background: #3D70B2;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  min-height: 198px;
+  display: flex;
+  padding-bottom: 72px;
+}
+
+.contentdownload{
+  display: inline-flex;
+}
+
+#installinstruction{
+  font-family: HelveticaNeue-Light;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0.96px;
+  line-height: 54px;
+  margin-right: 63px;
+}
+
+#downloadbutton{
+  background: #FFFFFF;
+}
+
+#buttonlabel{
+  font-family: HelveticaNeue-Medium;
+  font-size: 14px;
+  color: #2F5AA7;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.footer{
+  min-height: 152px;
+  padding: 64px;
+}
+
+#footertext{
+  margin-left: 32px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #5A6872;
+  line-height: 24px;
 }
