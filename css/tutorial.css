@@ -107,10 +107,10 @@ div.downtheheader{
 span.line{
   position : absolute;
   border : solid #8C9BA5;
-  border-width: 2px;
+  border-width: 1px;
   min-height: 195px;
   opacity: 0.14;
-  margin-left: 18px;
+  margin-left: 13px;
   margin-top: 13px;
 }
 
@@ -133,16 +133,16 @@ span.contentsselected{
 }
 
 li.contentsselected{
-  font-size: 16px;
+  font-size: 35px;
   color: #5AAAFA;
   line-height: 24px;
   margin-bottom:13px;
-  margin-left: 34.7px;
+  margin-left: 37px;
   opacity: 100%;
 }
 
 li.contents{
-  font-size: 8px;
+  font-size: 20px;
   color: #8C9BA5;
   line-height: 24px;
   padding-bottom:12px;
