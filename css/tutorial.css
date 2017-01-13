@@ -123,7 +123,7 @@ span.line{
   margin-top: 25px;
 }
 
-span#contentsselected{
+span.contentsselected{
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   line-height: 24px;
@@ -132,7 +132,7 @@ span#contentsselected{
   color: #152935;
 }
 
-li#contentsselected{
+li.contentsselected{
   font-size: 16px;
   color: #5AAAFA;
   line-height: 24px;
@@ -141,7 +141,7 @@ li#contentsselected{
   opacity: 100%;
 }
 
-li#contents{
+li.contents{
   font-size: 8px;
   color: #8C9BA5;
   line-height: 24px;
@@ -151,7 +151,7 @@ li#contents{
 }
 
 
-span#contents {
+span.contents {
   padding-left: 12px;
   font-family: HelveticaNeue;
   font-size: 16px;
@@ -279,9 +279,10 @@ span#contents {
   margin-right: 63px;
 }
 
-#downloadbutton{
-  background: #FFFFFF;
-}
+.btn {border-radius: 0;
+padding: 20px 17px 16px 16px;
+
+} 
 
 #buttonlabel{
   font-family: HelveticaNeue-Medium;
