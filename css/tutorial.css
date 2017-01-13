@@ -279,9 +279,10 @@ span.contents {
   margin-right: 63px;
 }
 
-.btn {border-radius: 0;
-padding: 20px 17px 16px 16px;
-
+.btn {
+  border-radius: 0;
+  padding: 12px 16px 16px 16px;
+  height: 44px;
 } 
 
 #buttonlabel{

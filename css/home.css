@@ -148,14 +148,13 @@ p.installdeveloperdescription{
 
 #bottomline{
   background: #F0F3F6;
-  margin:auto;
+
   height: 1px;
   opacity: 100%;
 }
 
 #bottomlineinstall{
   background: #F0F3F6;
-  margin:auto;
   height: 1px;
   opacity: 100%;
   margin-top: 15px;
@@ -285,9 +284,10 @@ p.installdeveloperdescription{
   margin-right: 63px;
 }
 
-.btn {border-radius: 0;
-padding: 20px 17px 16px 16px;
-
+.btn {
+  border-radius: 0;
+  padding: 12px 16px 16px 16px;
+  height: 44px;
 } 
 
 #buttonlabel{
