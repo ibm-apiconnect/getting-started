@@ -25,9 +25,9 @@
 
 div.downtheheader{
   background: #fff;
-	text-align: center;
-	margin: 0 auto;
-	padding: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
 }
 
 .headertitle{
@@ -75,13 +75,14 @@ div.downtheheader{
 }
 
 .thumbnail{        
+  border-radius: 0;
   background: #FFFFFF;
-	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
-	min-height: 420px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
+  min-height: 420px;
 }
 
 p.microservice{
-  margin-left: 15px;
+  margin-left: 35px;
   margin-top: 15px;
   font-family: HelveticaNeue-Medium;
   font-size: 26px;
@@ -93,7 +94,7 @@ p.microservice{
 }
 
 p.microservicedescription{
-  margin-left: 15px;
+  margin-left: 35px;
   margin-top: 15px;
   font-family: HelveticaNeue;
   font-size: 16px;
@@ -103,39 +104,8 @@ p.microservicedescription{
   margin-bottom: 100px;
 }
 
-p.proxydescription{
-  margin-left: 15px;
-  margin-top: 15px;
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  color: #5A6872;
-  line-height: 24px;
-  display: block;
-  margin-bottom: 120px;
-
-}
-
-p.publishapidescription{
-  margin-left: 15px;
-  margin-top: 15px;
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  color: #5A6872;
-  line-height: 24px;
-  display: block;
-  margin-bottom: 120px;
-
-}
-
-p.installdeveloperdescription{
-  margin-left: 15px;
-  margin-top: 15px;
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  color: #5A6872;
-  line-height: 24px;
-  display: block;
-  margin-bottom: 120px;
+.description{
+  height: 330px;
 }
 
 #topthumbnailline{
@@ -148,17 +118,10 @@ p.installdeveloperdescription{
 
 #bottomline{
   background: #F0F3F6;
-
+  margin-left:32px;
+  margin-right: 32px;
   height: 1px;
   opacity: 100%;
-}
-
-#bottomlineinstall{
-  background: #F0F3F6;
-  height: 1px;
-  opacity: 100%;
-  margin-top: 15px;
-
 }
 
 #oval {
@@ -168,13 +131,10 @@ p.installdeveloperdescription{
   border-radius: 13px;
   margin-left: 32px;
   margin-top: 12px;
-
 }
 
 .bottompart{
-  padding-top: 60px;
   margin-bottom: 32px;
-
 }
 
 #tutorialtext{
@@ -287,7 +247,7 @@ p.installdeveloperdescription{
 .btn {
   border-radius: 0;
   padding: 12px 16px 16px 16px;
-  height: 44px;
+  max-height: 44px;
 } 
 
 #buttonlabel{
