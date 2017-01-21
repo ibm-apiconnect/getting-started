@@ -1,8 +1,8 @@
 ---
 title: Versioning your API Connect Project
-toc: false
+layout: tutorial
 keywords:
-sidebar: gs_sidebar
+sidebar:
 permalink: /Versioning.html
 summary:
 ---

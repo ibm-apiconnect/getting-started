@@ -9,7 +9,7 @@ topnav_title: IBM API Connect
 site_title: IBM API Connect
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: IBM / StrongLoop
+company_name: IBM 
 # this appears in the footer
 
 github_editme_path: ibm-apiconnect/getting-started/blob/gh-pages/pages
@@ -72,7 +72,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: gs_sidebar
+      sidebar: 
   -
     scope:
       path: ""
@@ -90,12 +90,12 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: gs_sidebar
+      sidebar: 
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- gs_sidebar
+- 
 
 description: "Getting started with IBM API Connect"
 # the description is used in the feed.xml file

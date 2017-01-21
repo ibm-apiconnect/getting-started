@@ -1,8 +1,7 @@
 ---
 title: Creating your first Product
-toc: false
+layout: tutorial
 keywords:
-sidebar: gs_sidebar
 permalink: /First-product.html
 summary: Create a Product to collect a set of APIs and Plans into one offering that you make available to your developers.
 ---

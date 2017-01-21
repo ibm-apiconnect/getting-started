@@ -6,7 +6,7 @@
   background: #152934;
 }
 
-#apiconnect{
+#apiconnect a, #apiconnect {
   padding-top:21px;
   line-height:24px;
   opacity:0.69;
@@ -61,6 +61,14 @@ div.downtheheader{
 }
 
 #intro{
+  font-family: HelveticaNeue-Light;
+  font-size: 40px;
+  color: #2D3F49;
+  letter-spacing: 1.2px;
+  line-height: 54px;
+}
+
+#heading1 {
   font-family: HelveticaNeue-Light;
   font-size: 40px;
   color: #2D3F49;
@@ -123,7 +131,7 @@ span.line{
   margin-top: 25px;
 }
 
-span.contentsselected{
+a.contentsselected{
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   line-height: 24px;
@@ -133,7 +141,7 @@ span.contentsselected{
 }
 
 li.contentsselected{
-  font-size: 35px;
+  font-weight: bold;
   color: #5AAAFA;
   line-height: 24px;
   margin-bottom:13px;
@@ -142,7 +150,6 @@ li.contentsselected{
 }
 
 li.contents{
-  font-size: 20px;
   color: #8C9BA5;
   line-height: 24px;
   padding-bottom:12px;
@@ -150,8 +157,7 @@ li.contents{
   opacity: 100%;
 }
 
-
-span.contents {
+a.contents {
   padding-left: 12px;
   font-family: HelveticaNeue;
   font-size: 16px;
@@ -159,7 +165,7 @@ span.contents {
   line-height: 24px;
 }
 
-#wifi{
+#wifi {
   margin-top: 19px;
   margin-left: 20px;
   font-family: MaterialIcons-Regular;
@@ -171,7 +177,7 @@ span.contents {
   float: left;
 }
 
-#internet{
+#internet {
   opacity: 0.8;
   font-family: HelveticaNeue-Medium;
   font-size: 16px;
@@ -191,12 +197,12 @@ span.contents {
 #square
 {
   margin-top: 20px;
-  background: rgba(0,0,0,0.36);
+  /* background: rgba(0,0,0,0.36);*/
   min-height: 629px;
 }
 
 .nextstep{
-  display: inline-flex; 
+  display: inline-flex;
   padding-top: 41px;
   float: right;
   clear: both;
@@ -283,7 +289,7 @@ span.contents {
   border-radius: 0;
   padding: 12px 16px 16px 16px;
   height: 44px;
-} 
+}
 
 #buttonlabel{
   font-family: HelveticaNeue-Medium;

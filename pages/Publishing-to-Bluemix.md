@@ -2,7 +2,7 @@
 title: Publishing your API to Bluemix
 keywords:
 toc: false
-sidebar: gs_sidebar
+sidebar: 
 permalink: /Publishing-to-Bluemix.html
 summary: You can stage and publish a project to Bluemix using the API Designer.
 ---

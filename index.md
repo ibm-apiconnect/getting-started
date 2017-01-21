@@ -1,53 +1,35 @@
 ---
-title: Getting Started with API Connect
-layout: page
-homepage: true
-toc: false
+title: Getting Started
+layout: home
 keywords: API Connect, REST, API management, microservices, Node.js, Java, Bluemix, SOAP
-sidebar: gs_sidebar
 permalink: /index.html
 redirect_from:
   - "/getting-started/index.html"
-summary: IBM API Connect is an end-to-end API management solution for creating, running, managing, and securing APIs.
 ---
+{% include home-tile.html
+  title="Installing the Developer Toolkit"
+  icon="icon_explore.svg"
+  text="Includes the apic command-line tool and the API Designer visual tool."
+  link="Install"
+%}
 
-{% include warning.html content="This site is incomplete.  Do not use.
-" %}
+{% include home-tile.html
+  title="Creating microservices"
+  icon="icon_apis.svg"
+  text="Create a microservice in the API Designer using the LoopBack Node.js framework."
+  link="Microservices"
+%}
 
-**Learn the basics of API Connect by using these guides to build micro services and API  proxies.**
+{% include home-tile.html
+  title="Creating an API proxy"
+  icon="icon_apis.svg"  
+  text="Forward requests to a back-end resource and relay responses back to the calling application."
+  link="Proxy"  
+%}
 
-{% include note.html content=" This site focuses on using API Connect on BlueMix with the DataPower Gateway.
-" %}
-
-New template pages:
-
-- [Home page](./proto/loopback_home.html)
-- [Other page](./proto/loopback_tutorial.html)
-
-## Key Capabilities
-
-Try on your laptop, on IBM Bluemix or hybrid cloud.
-
-### Create
-
-You can create high-quality, scalable and secure APIs in minutes for enterprise systems such as application servers, databases, enterprise service buses (ESBs) and mainframes.
-
-### Run
-
-You can take advantage of integrated tooling to build, run, debug and deploy APIs and microservices using the Node.js or Java skills they already possess.
-
-### Manage
-
-Create and manage self-service portals that empower internal and external developers to quickly discover and consume APIs and securely access enterprise data.
-
-### Secure
-
-Secure and govern control over APIs as part of the API lifecycle. Set and enforce API policies to secure back-end information assets and comply with governance and regulatory mandate.
-
-## About this website
-
-{% include tip.html content="The source of this site is in the [ibm-apiconnect/getting-started](https://github.com/ibm-apiconnect/getting-started) GitHub repository.
-" %}
-
-**For examples of some of the authoring features available on this site,
-see [Examples of site features](Demos.html)**.
+{% include home-tile.html
+  title="Organizing and publishing your APIs"
+  icon="icon_publish.svg"
+  text="Create a microservice in the API Designer using the LoopBack Node.js framework."
+  link="Organizing"
+%}

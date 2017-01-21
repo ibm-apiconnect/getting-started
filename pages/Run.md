@@ -2,7 +2,7 @@
 title: Running API Designer
 toc: false
 keywords:
-sidebar: gs_sidebar
+sidebar: 
 permalink: /Run.html
 summary: API Designer
 ---

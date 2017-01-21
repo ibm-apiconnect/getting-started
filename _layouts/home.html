@@ -1,5 +1,29 @@
 ---
-layout: page
-toc: false
+layout: default
+css: home
 ---
-{{content}}
+<div class = "downtheheader">
+	<p class="headertitle">Getting Started with IBM API Connect</p>
+	<p class="titledescription">Learn the basics of API Connect by using these guides to build micro services and API proxies.
+	</p>
+</div>
+
+<div class="totoriallinks">
+  <p id="view">Tutorials</p>
+  <a href="#" id="viewlink">View all tutorials</a>
+</div>
+
+<div class = "row" id="one">
+  {{content}}
+</div>
+
+{% include hereswhy.html %}
+
+<div class="downloadbar">
+  <div class="contentdownload">
+    <p id="installinstruction">Install Developer Toolkit today</p>
+    <a href="Install.html" class="btn btn-default"><label id="buttonlabel">INSTALL TOOLKIT</label></a>
+  </div>
+</div>
+</body>
+</html>

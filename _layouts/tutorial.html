@@ -1,0 +1,39 @@
+---
+layout: default
+css: tutorial
+---
+<div class="row">
+{% if page.sidebar %}
+  {% include {{page.sidebar}}.html %}
+{% endif %}
+  <div class="col-md-8">
+
+    <p id="heading1">{{page.title}}</p>
+
+    <p id="summary">Summary</p>
+    <p id="summarydesc">{{page.summary}}</p>
+
+    <div id="square">
+      {{content}}
+    </div>
+{% if page.next %}
+    <div class="nextstep">
+      <p id="next">Next Step: </p>
+      <a href="{{page.next}}.html" id="navigate">{{page.next-title}}</a>
+    </div>
+{% endif %}
+
+    <div class="proposechangediv">
+      <div class="githubdiv">
+        <img src="../images/mark-github.png" id="git"/>
+        <p id="iffixing">See something that needs fixing?</p>
+      </div>
+      <br/>
+      <div class="changesourcediv">
+        <p id="propose">Propose a change on the</p>&nbsp;<a href="#">source</a>.
+      </div>
+    </div>
+
+  </div>
+
+</div>

@@ -2,7 +2,7 @@
 title: Examples of site features
 keywords:
 tags:
-sidebar: gs_sidebar
+sidebar: 
 permalink: /Demos.html
 summary: This page provides some examples of the content features available on this site.
 ---

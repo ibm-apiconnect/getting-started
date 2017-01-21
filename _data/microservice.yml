@@ -3,6 +3,7 @@ intro:
 
 create_project:
   title: Create a new project
+  url: create-project.html
   summary: A LoopBack project (or "LoopBack app") is a Node.js application that automatically comes with a REST API.  It consists of models, data sources, and you can extend it further by adding Node.js application logic.  For more information see [LoopBack documentation](http://loopback.io/doc/en/lb2/).
   project_pane_open: Click **Add** to open the projects pane.
   create_project: Click to create a new project.

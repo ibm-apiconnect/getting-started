@@ -1,8 +1,7 @@
 ---
 title: Creating an API proxy
 keywords:
-tags:
-sidebar: gs_sidebar
+layout: tutorial
 permalink: /Proxy.html
 summary: An API proxy forwards requests to a user-defined back-end resource and relays responses back to the calling application.
 ---

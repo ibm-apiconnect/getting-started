@@ -1,7 +1,7 @@
 ---
 title: Orchestrating SOAP services with LoopBack
 keywords:
-sidebar: gs_sidebar
+sidebar: 
 permalink: /Orchestrating-SOAP-LoopBack.html
 summary:
 ---

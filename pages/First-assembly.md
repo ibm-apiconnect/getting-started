@@ -2,7 +2,7 @@
 title: Creating your first assembly
 keywords:
 tags:
-sidebar: gs_sidebar
+sidebar: 
 permalink: /First-assembly.html
 summary:
 ---

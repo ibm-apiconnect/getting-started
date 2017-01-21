@@ -3,7 +3,7 @@ title: Glossary
 toc: false
 keywords:
 tags:
-sidebar: gs_sidebar
+sidebar: 
 permalink: /Glossary.html
 summary: Definitions of common terms used with API Connect.
 ---
