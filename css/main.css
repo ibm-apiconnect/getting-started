@@ -1,0 +1,24 @@
+.bodybackground{
+  background-color: #F5F7FA;
+}
+
+#apiconnect a, #apiconnect {
+  padding-top:21px;
+  line-height:24px;
+  opacity:0.69;
+  font-family:HelveticaNeue-Medium;
+  font-size: 18px;
+  color:#FFFFFF;
+  letter-spacing:0;
+}
+
+.header{
+  background: #152934;
+}
+
+#headeroptionsright{
+  padding-top:24px;
+  font-family:HelveticaNeue-Bold;
+  font-size:14px;
+  color:#FFFFFF;
+}

@@ -7,10 +7,12 @@
     <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
     <meta name="keywords" content="{{page.keywords}}">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/{{page.css}}.css">
-    <!-- css is {{page.css}}
-url is {{page.url}}
-  -->
+    <link rel="stylesheet" href="css/main.css">  
+    {% if page.url contains 'index.html' %}
+      <link rel="stylesheet" href="css/home.css">
+    {% else %}
+      <link rel="stylesheet" href="css/tutorial.css">
+    {% endif %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico">
