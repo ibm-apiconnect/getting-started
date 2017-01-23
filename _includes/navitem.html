@@ -1,3 +1,2 @@
 
-<li class="{% if {{include.current}} contains {{include.page}} %}contentsselected{% else %}contents{% endif %}">BASE IS {{base}} <br/>
-  <a href="{{base}}/{{include.page}}.html" class="{% if {{include.current}} contains {{include.page}} %}contentsselected{% else %}contents{% endif %}">{{include.text}}</a></li>
+<li class="{% if {{include.current}} contains {{include.page}} %}contentsselected{% else %}contents{% endif %}"> <a href="./{{include.page}}.html" class="{% if {{include.current}} contains {{include.page}} %}contentsselected{% else %}contents{% endif %}">{{include.text}}</a></li>
