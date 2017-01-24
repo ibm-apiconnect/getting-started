@@ -1,14 +1,12 @@
 ---
-title: Running API Designer
+title: Run API Designer
 layout: tutorial
 sidebar: install
 permalink: /install-3.html
 summary: API Designer is a graphical tool in the API Connect developer toolkit for creating, editing, and publishing APIs and LoopBack projects.
 ---
 
-First, [install Developer Toolkit](Install.html).
-
-Then, to run API Designer, enter the following command at the command line:
+Once you've [installed Developer Toolkit](Install.html), run API Designer by entering the following command at the command line:
 
 ```
 apic edit

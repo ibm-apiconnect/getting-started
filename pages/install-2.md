@@ -1,5 +1,5 @@
 ---
-title: Create a new project
+title: Install Developer Toolkit
 keywords:
 layout: tutorial
 sidebar: install

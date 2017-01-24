@@ -7,9 +7,6 @@ permalink: /soap-1.html
 summary:  Today, “web services” usually means REST (Representational state transfer) APIs using JSON as the data exchange format.  However, the first generation of web services was built using SOAP (Simple Object Access Protocol), a standard protocol based on XML.  In many enterprises, SOAP web services are still important assets, and some APIs are only available via SOAP.
 ---
 
-{% assign content = site.data.soap %}
-
-
 1. Create API defn.
 1. Create target service
    - Provide URL of WSDL file

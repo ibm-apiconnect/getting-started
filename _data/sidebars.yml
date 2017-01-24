@@ -64,35 +64,29 @@ publishing:
   children:
 
   - page: publishing-1
-    text: Create a new project
+    text: Configure Bluemix
 
   - page: publishing-2
-    text: Create a new data source
+    text: Publish to Bluemix
 
   - page: publishing-3
-    text: Create a new model
-
-  - page: publishing-4
-    text: Add properties to the model
-
-  - page: publishing-5
-    text: Run project and try out API
+    text: Publish to the API Manager
 
 soap:
   title: Exposing SOAP services as REST APIs
   children:
 
   - page: soap-1
-    text: Create a new project
+    text: Create API definition
 
-  - page: soap-2
-    text: Create a new data source
+  - page: soap-1
+    text: Create target service
 
-  - page: soap-3
-    text: Create a new model
+  - page: soap-1
+    text: Step 3
 
-  - page: soap-4
-    text: Add properties to the model
+  - page: soap-1
+    text: Step 4
 
-  - page: soap-5
-    text: Run project and try out API
+  - page: soap-1
+    text: Step 5
