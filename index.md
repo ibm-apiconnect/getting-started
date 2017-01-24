@@ -10,7 +10,7 @@ redirect_from:
   title="Installing the Developer Toolkit"
   icon="icon_explore.svg"
   text="Includes the apic command-line tool and the API Designer visual tool."
-  link="Install"
+  link="install-1"
 %}
 
 {% include home-tile.html
@@ -32,4 +32,12 @@ redirect_from:
   icon="icon_publish.svg"
   text="Create a microservice in the API Designer using the LoopBack Node.js framework."
   link="Organizing"
+%}
+
+{% include home-tile.html
+  title="Glossary"
+  icon="icon_apis.svg"
+  text="Definitions of common terms used with API Connect."
+  link="Glossary"
+  type="Reference"
 %}

@@ -1,0 +1,20 @@
+---
+title: Test
+layout: tutorial
+sidebar: microservice
+keywords:
+permalink: /test.html
+---
+{% if page.sidebar == "microservice" %}
+  {% assign nav = site.data.sidebars.microservice %}
+{% endif %}
+
+ <h2>   title = {{ nav.title}}</h2>
+ <ul>
+ {% for item in nav.children %}
+   <li>
+     PAGE= {{item.page}} --
+     TEXT = {{item.text}}
+   </li>
+ {% endfor %} 
+ </ul>

@@ -4,15 +4,15 @@ css: tutorial
 ---
 <div class="row">
 {% if page.sidebar %}
-  {% include {{page.sidebar}}.html %}
+  {% include sidebar.html %}
 {% endif %}
   <div class="col-md-8">
 
     <p id="heading1">{{page.title}}</p>
-
+{% if page.summary %}
     <p id="summary">Summary</p>
     <p id="summarydesc">{{page.summary}}</p>
-
+{% endif %}
     <div id="square">
       {{content}}
     </div>

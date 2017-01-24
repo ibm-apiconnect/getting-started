@@ -1,8 +1,9 @@
 ---
 title: Orchestrating SOAP services with LoopBack
 keywords:
-sidebar: 
-permalink: /Orchestrating-SOAP-LoopBack.html
+layout: tutorial
+sidebar: orchestrating
+permalink: /orchestrating-1.html
 summary:
 ---
 

@@ -9,5 +9,5 @@ summary: A microservice is a flexible, fine-grained, independently-deployable ap
 This tutorial has three parts:
 
 - [Creating your first microservice](microservice-1.html)
-- [Orchestrating SOAP services with LoopBack](Orchestrating-SOAP-LoopBack.html) (TBD)
-- [Publishing your API to Bluemix](Publishing-to-Bluemix.html) (TBD)
+- [Orchestrating SOAP services with LoopBack](orchestrating-1.html) (TBD)
+- [Publishing your API to Bluemix](publishing-1.html) (TBD)

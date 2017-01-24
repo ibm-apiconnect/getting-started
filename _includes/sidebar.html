@@ -1,6 +1,31 @@
-{% include sidebarconfigs.html %}
-
-<div class="sidebarTitle"><a href="{{sidebar.url}}">{{sidebar.title}}</a></div>
-<ul id="mysidebar" class="nav-list">
-  {% include sidebar_menu_list_items.liquid menuitems=sidebar.children %}
-</ul>
+{% case page.sidebar %}
+  {% when 'assembly' %}
+     {% assign nav = site.data.sidebars.assembly %}
+  {% when 'install' %}
+     {% assign nav = site.data.sidebars.install %}
+  {% when 'microservice' %}
+    {% assign nav = site.data.sidebars.microservice %}
+  {% when 'orchestrating' %}
+     {% assign nav = site.data.sidebars.orchestrating %}
+  {% when 'publishing' %}
+    {% assign nav = site.data.sidebars.publishing %}
+  {% when 'soap' %}
+     {% assign nav = site.data.sidebars.soap %}
+{% endcase %}
+<!--
+sidebar is {{page.sidebar}}
+nav is
+{{nav}}
+-->
+ <div class="col-md-4">
+   <ul class="table">
+   <p  id="tabletitle">{{ nav.title}}</p>
+   <span class='line'></span>
+   {% for item in nav.children %}
+     {% include navitem.html
+       page=item.page
+       text=item.text
+     %}
+   {% endfor %}
+ </ul>
+ </div>

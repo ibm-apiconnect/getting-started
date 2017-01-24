@@ -22,3 +22,46 @@
   font-size:14px;
   color:#FFFFFF;
 }
+
+
+.footer{
+  min-height: 152px;
+  padding: 64px;
+}
+
+#footertext{
+  margin-left: 32px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #5A6872;
+  line-height: 24px;
+}
+
+/* Navtabs  */
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #248ec2;
+    color: white;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #a9d9ef;
+  color: white;
+}
+
+
+.tab-content {
+    padding: 15px;
+    background-color: #FAFAFA;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    margin-top: -10px;
+}
+
+.nav-tabs { border-bottom: none;}
+
+.tab-content { padding-top: 0;}
+
+/* Glossary */
+
+dt { margin-top: 15px; }

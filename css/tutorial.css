@@ -1,14 +1,9 @@
-div.downtheheader {
-  background: #fff;
-  padding: 30px;
-}
-
-.back{
+.back {
   float: left;
   margin-right: 8px;
 }
 
-.gs{
+.gs {
   font-family: HelveticaNeue-Bold;
   font-size: 14px;
   color: #3D70B2;
@@ -16,11 +11,11 @@ div.downtheheader {
   line-height: 18px;
 }
 
-#gettingstarted{
+#gettingstarted {
   display: inline-flex;
 }
 
-.tutorialtitle{
+.tutorialtitle {
   font-family: HelveticaNeue-Light;
   margin-top: 7px;
   font-size: 32px;
@@ -31,11 +26,11 @@ div.downtheheader {
   align:left;
 }
 
-.row{
+.row {
   margin: 50px 32px 0;
 }
 
-#intro{
+#intro {
   font-family: HelveticaNeue-Light;
   font-size: 40px;
   color: #2D3F49;
@@ -51,7 +46,7 @@ div.downtheheader {
   line-height: 54px;
 }
 
-#summary{
+#summary {
   font-family: HelveticaNeue-Medium;
   font-size: 22px;
   color: #152935;
@@ -59,14 +54,14 @@ div.downtheheader {
   margin-top:40px;
 }
 
-#summarydesc{
+#summarydesc {
   font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
 }
 
-#project{
+#project {
   font-family: HelveticaNeue-Light;
   font-size: 26px;
   color: #152935;
@@ -74,7 +69,7 @@ div.downtheheader {
   margin-top:40px
 }
 
-#projectdesc{
+#projectdesc {
   font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
@@ -83,11 +78,11 @@ div.downtheheader {
   min-height: 48px;
 }
 
-.table{
+.table {
   padding-left: 0px;
 }
 
-span.line{
+span.line {
   position : absolute;
   border : solid #8C9BA5;
   border-width: 1px;
@@ -97,7 +92,7 @@ span.line{
   margin-top: 13px;
 }
 
-#tabletitle{
+#tabletitle {
   font-family: HelveticaNeue-Medium;
   font-size: 18px;
   color: #152935;
@@ -106,7 +101,7 @@ span.line{
   margin-top: 25px;
 }
 
-a.contentsselected{
+a.contentsselected {
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   line-height: 24px;
@@ -115,7 +110,7 @@ a.contentsselected{
   color: #152935;
 }
 
-li.contentsselected{
+li.contentsselected {
   font-weight: bold;
   color: #5AAAFA;
   line-height: 24px;
@@ -124,7 +119,7 @@ li.contentsselected{
   opacity: 100%;
 }
 
-li.contents{
+li.contents {
   color: #8C9BA5;
   line-height: 24px;
   padding-bottom:12px;
@@ -161,7 +156,7 @@ a.contents {
   padding-top: 19px;
 }
 
-.internetdiv{
+.internetdiv {
   opacity: 0.4;
   background: #7CC7FF;
   border-radius: 3px;
@@ -169,21 +164,20 @@ a.contents {
   height: 72px;
 }
 
-#square
-{
+#square {
   margin-top: 20px;
   /* background: rgba(0,0,0,0.36);*/
   min-height: 629px;
 }
 
-.nextstep{
+.nextstep {
   display: inline-flex;
   padding-top: 41px;
   float: right;
   clear: both;
 }
 
-#next{
+#next {
   font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
@@ -191,14 +185,14 @@ a.contents {
   padding-right: 4px;
 }
 
-#navigate{
+#navigate {
   font-family: HelveticaNeue-Bold;
   font-size: 16px;
   color: #5596E6;
   line-height: 24px;
 }
 
-.proposechangediv{
+.proposechangediv {
   margin-top: 127px;
   background: #FFFFFF;
   box-shadow: 0 1px 0 0 #E0E5E7;
@@ -208,35 +202,35 @@ a.contents {
   padding: 40px;
 }
 
-.githubdiv{
+.githubdiv {
   display: inline-flex;
 }
 
-#git{
+#git {
   margin-right: 12px;
   width: 16px;
   height: 16px;
   margin-top: 5px;
 }
 
-#iffixing{
+#iffixing {
   font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
 }
 
-.changesourcediv{
+.changesourcediv {
   display: inline-flex;
 }
 
-#propose{
+#propose {
   font-family: HelveticaNeue;
   font-size: 14px;
   color: #5A6872;
 }
 
-.downloadbar{
+.downloadbar {
   margin-top: 40px;
   background: #3D70B2;
   align-items: center;
@@ -247,11 +241,11 @@ a.contents {
   padding-bottom: 72px;
 }
 
-.contentdownload{
+.contentdownload {
   display: inline-flex;
 }
 
-#installinstruction{
+#installinstruction {
   font-family: HelveticaNeue-Light;
   font-size: 32px;
   color: #FFFFFF;
@@ -266,23 +260,10 @@ a.contents {
   height: 44px;
 }
 
-#buttonlabel{
+#buttonlabel {
   font-family: HelveticaNeue-Medium;
   font-size: 14px;
   color: #2F5AA7;
   letter-spacing: 0;
   line-height: 14px;
-}
-
-.footer{
-  min-height: 152px;
-  padding: 64px;
-}
-
-#footertext{
-  margin-left: 32px;
-  font-family: HelveticaNeue;
-  font-size: 14px;
-  color: #5A6872;
-  line-height: 24px;
 }

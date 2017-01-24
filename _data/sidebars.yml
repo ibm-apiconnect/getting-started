@@ -1,0 +1,98 @@
+assembly:
+  title: Creating your first assembly
+  children:
+
+  - page: assembly-1
+    text: Create API
+
+  - page: assembly-2
+    text: Wire up proxy
+
+  - page: assembly-3
+    text: Run using test tool
+
+install:
+  title: Installing Developer Toolkit
+  children:
+
+  - page: install-1
+    text: Install Node.js
+
+  - page: install-2
+    text: Install Developer Toolkit
+
+  - page: install-3
+    text: Running API Designer
+
+microservice:
+  title: Creating your first microservice
+  children:
+
+  - page: microservice-1
+    text: Create a new project
+
+  - page: microservice-2
+    text: Create a new data source
+
+  - page: microservice-3
+    text: Create a new model
+
+  - page: microservice-4
+    text: Add properties to the model
+
+  - page: microservice-5
+    text: Run project and try out API
+
+orchestrating:
+  title: Orchestrating SOAP services
+  children:
+
+  - page: orchestrating-1
+    text: Add SOAP data source
+
+  - page: orchestrating-2
+    text: Create new models
+
+  - page: orchestrating-3
+    text: Create methods
+
+  - page: orchestrating-4
+    text: Try in API Explorer
+
+publishing:
+  title: Publishing to Bluemix
+  children:
+
+  - page: publishing-1
+    text: Create a new project
+
+  - page: publishing-2
+    text: Create a new data source
+
+  - page: publishing-3
+    text: Create a new model
+
+  - page: publishing-4
+    text: Add properties to the model
+
+  - page: publishing-5
+    text: Run project and try out API
+
+soap:
+  title: Exposing SOAP services as REST APIs
+  children:
+
+  - page: soap-1
+    text: Create a new project
+
+  - page: soap-2
+    text: Create a new data source
+
+  - page: soap-3
+    text: Create a new model
+
+  - page: soap-4
+    text: Add properties to the model
+
+  - page: soap-5
+    text: Run project and try out API

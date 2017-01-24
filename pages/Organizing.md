@@ -1,8 +1,7 @@
 ---
-title: Organizing APIs
-toc: false
-keywords:
+title: Organizing and publishing your APIs
 layout: tutorial
+keywords:
 permalink: /Organizing.html
 summary:
 ---

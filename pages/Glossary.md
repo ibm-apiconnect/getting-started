@@ -1,11 +1,8 @@
 ---
 title: Glossary
-toc: false
+layout: tutorial
 keywords:
-tags:
-sidebar: 
 permalink: /Glossary.html
-summary: Definitions of common terms used with API Connect.
 ---
 
 See also:

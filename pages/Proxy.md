@@ -14,7 +14,7 @@ apic edit
 
 Then follow the rest of the tutorial:
 
-- [Creating your first Assembly](First-assembly.html)
-- [Exposing SOAP services as REST APIs](Exposing-SOAP-services.html)
+- [Creating your first Assembly](assembly-1.html)
+- [Exposing SOAP services as REST APIs](soap-1.html)
 - [Invoking a Micro Service from an API Proxy](Invoking-ms-from-proxy.html)
 - [Deploying an assembly to Bluemix](Deploying-assembly-to-bm.html)
