@@ -31,8 +31,8 @@ To create a Product, complete the following steps:
     1.  In the **Product template** field, select **Default** if you want to use the template defined as the default, to create the Product definition. This can either be the default `.hbs` template file provided with the developer toolkit, or another template file that you have configured as the default by using configuration variables. You can also select a custom template that you created. For information about template files and configuration variables, see [Creating and using API and Product definitions templates](http://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/task_apim_cli_templates.html). You can use template files when creating API and Product definitions. Template files are Handlebars templates containing variables of the form &#123;&#123;`variable-name`&#125;&#125; that are substituted with values when you create the API or Product definition. and [Toolkit command summary](http://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.toolkit.doc/rapim_cli_command_summary.html).
     2.  Specify a title, name, and version for the Product.
 
-        <div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b>  The **Name** field can contain only lowercase alphanumeric characters (a-z and 0-9), and hyphen characters (-). A hyphen cannot be used as the first or last character in the name.
-        </div>
+        {% include note.html content="The **Name** field can contain only lowercase alphanumeric characters (a-z and 0-9), and hyphen characters (-). A hyphen cannot be used as the first or last character in the name.
+        " %}
 
     3.  Click **Create product**. The **Design** tab for the new Product opens.
 5.  Optional: Enter description, contact, license, and terms of service information for the Product in the **Info** section.
@@ -44,15 +44,16 @@ To create a Product, complete the following steps:
     1.  Click {% include inline_image.html file="plus_icon.jpg" alt="Add icon" %} **Add API** .
     2.  Select the APIs that you want to include, then click **Apply**. The selected APIs are listed.
 
-    <div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> To make an API available to application developers, you must include it in a Plan.
-    </div>
+    {% include tip.html content=" To make an API available to application developers, you must include it in a Plan.
+    " %}
 
 9.  Add one or more Plans to the Product.
-    1.  Click  % include inline_image.html file="plus_icon.jpg" alt="Add icon" %} **Add Plan**.
+    1.  Click  {% include inline_image.html file="plus_icon.jpg" alt="Add icon" %} **Add Plan**.
     2.  Expand the new Plan that has been created. If you have already added APIs to your Product, these are automatically included.
     3.  Rename your Plan in the **Title** and **Name** fields, and optionally add a description.
-    <div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> A Default Plan is automatically created for you if you do not want to create your own, and any APIs that you selected in the previous step are automatically included in this Plan. You can clear the check box for any API to exclude it from the Plan, but at least one API must be included because a Product cannot be staged if it includes any Plans that do not include APIs. If you decide not to use the Default Plan, you must delete it.
-    </div>
+
+    {% include note.html content="A Default Plan is automatically created for you if you do not want to create your own, and any APIs that you selected in the previous step are automatically included in this Plan. You can clear the check box for any API to exclude it from the Plan, but at least one API must be included because a Product cannot be staged if it includes any Plans that do not include APIs. If you decide not to use the Default Plan, you must delete it.
+    " %}
 
 10.  Verify that the APIs you require are included in the Plan:
   - Expand the Plan to which you want to add APIs.
@@ -72,11 +73,10 @@ To create a Product, complete the following steps:
 
 14.  Click **Save** to save your changes.
 
-<div markdown="1" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b>
+{% include note.html content="Applying a rate limit at the Plan level creates a default rate limit that is shared across all the operations within the Plan. If you need to set specific rate limits for specific operations, you must set these within the operations themselves and these settings will override the setting at the Plan level.
 
-*   Applying a rate limit at the Plan level creates a default rate limit that is shared across all the operations within the Plan. If you need to set specific rate limits for specific operations, you must set these within the operations themselves and these settings will override the setting at the Plan level.
-*   The test application that is used by the API Manager test tool is not subject to rate limits if you have enabled automatic subscriptions for the Catalog in which you are testing. For more information, see [Working with Catalogs](http://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.apionprem.doc/conref_working_with_env.html)
-</div>
+The test application the API Manager test tool uses is not subject to rate limits if you have enabled automatic subscriptions for the Catalog in which you are testing. For more information, see [Working with Catalogs](http://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.apionprem.doc/conref_working_with_env.html).
+" %}
 
 ## What to do next
 
