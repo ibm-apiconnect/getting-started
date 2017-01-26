@@ -4,6 +4,7 @@ keywords:
 layout: tutorial
 sidebar: microservice
 permalink: /microservice-3.html
+next: true
 summary: A LoopBack model represents a back-end data structure such as a database table.  A model is a JavaScript object with both Node and REST APIs.
 ---
 

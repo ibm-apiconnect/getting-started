@@ -23,7 +23,6 @@
   color:#FFFFFF;
 }
 
-
 .footer{
   min-height: 152px;
   padding: 64px;
@@ -61,6 +60,8 @@
 .nav-tabs { border-bottom: none;}
 
 .tab-content { padding-top: 0;}
+
+figure.docfig {margin-bottom: 20px;}
 
 /* Glossary */
 

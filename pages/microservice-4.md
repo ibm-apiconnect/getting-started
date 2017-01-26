@@ -4,6 +4,7 @@ keywords:
 layout: tutorial
 sidebar: microservice
 permalink: /microservice-4.html
+next: true
 summary: A model has one or more properties that represent data fields or records.
 ---
 

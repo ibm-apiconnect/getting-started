@@ -16,13 +16,31 @@ css: tutorial
     <div id="square">
       {{content}}
     </div>
+
 {% if page.next %}
+
+    {% assign match = false %}
+    {% for item in nav.children %}
+        {% if match %}
+            {% assign next-page = item.page %}
+            {% assign next-text = item.text %}
+            {% assign match = false %}
+        {% endif %}
+        {% if page.permalink contains item.page %}
+            {% assign match = true %}
+        {% endif %}
+    {% endfor %}
+
     <div class="nextstep">
       <p id="next">Next Step: </p>
-      <a href="{{page.next}}.html" id="navigate">{{page.next-title}}</a>
+      <a href="{{next-page}}.html" id="navigate">{{next-text}}</a>
     </div>
 {% endif %}
+<p>
 
+
+
+</p>
     <div class="proposechangediv">
       <div class="githubdiv">
         <img src="images/mark-github.png" id="git"/>
