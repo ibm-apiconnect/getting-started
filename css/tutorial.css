@@ -4,7 +4,7 @@
 }
 
 .gs {
-  font-family: HelveticaNeue-Bold;
+  font-weight: bold;
   font-size: 14px;
   color: #3D70B2;
   letter-spacing: 0;
@@ -16,7 +16,7 @@
 }
 
 .tutorialtitle {
-  font-family: HelveticaNeue-Light;
+  font-weight: 100;
   margin-top: 7px;
   font-size: 32px;
   color: #5A6872;
@@ -31,7 +31,7 @@
 }
 
 #intro {
-  font-family: HelveticaNeue-Light;
+  font-weight: 100;
   font-size: 40px;
   color: #2D3F49;
   letter-spacing: 1.2px;
@@ -39,7 +39,7 @@
 }
 
 #heading1 {
-  font-family: HelveticaNeue-Light;
+  font-weight: 100;
   font-size: 40px;
   color: #2D3F49;
   letter-spacing: 1.2px;
@@ -47,7 +47,7 @@
 }
 
 #summary {
-  font-family: HelveticaNeue-Medium;
+  font-weight: 200;
   font-size: 22px;
   color: #152935;
   line-height: 24px;
@@ -55,14 +55,13 @@
 }
 
 #summarydesc {
-  font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
 }
 
 #project {
-  font-family: HelveticaNeue-Light;
+  font-weight: 100;
   font-size: 26px;
   color: #152935;
   line-height: 32px;
@@ -70,7 +69,6 @@
 }
 
 #projectdesc {
-  font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
@@ -93,7 +91,7 @@ span.line {
 }
 
 #tabletitle {
-  font-family: HelveticaNeue-Medium;
+  font-weight: 200;
   font-size: 18px;
   color: #152935;
   line-height: 24px;
@@ -102,7 +100,7 @@ span.line {
 }
 
 a.contentsselected {
-  font-family: HelveticaNeue-Bold;
+  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   margin-bottom:12px;
@@ -129,7 +127,6 @@ li.contents {
 
 a.contents {
   padding-left: 12px;
-  font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
@@ -149,7 +146,7 @@ a.contents {
 
 #internet {
   opacity: 0.8;
-  font-family: HelveticaNeue-Medium;
+  font-weight: 200;
   font-size: 16px;
   color: #0F212E;
   line-height: 24px;
@@ -178,7 +175,6 @@ a.contents {
 }
 
 #next {
-  font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
@@ -186,7 +182,7 @@ a.contents {
 }
 
 #navigate {
-  font-family: HelveticaNeue-Bold;
+  font-weight: bold;
   font-size: 16px;
   color: #5596E6;
   line-height: 24px;
@@ -214,7 +210,6 @@ a.contents {
 }
 
 #iffixing {
-  font-family: HelveticaNeue;
   font-size: 16px;
   color: #152935;
   line-height: 24px;
@@ -225,7 +220,6 @@ a.contents {
 }
 
 #propose {
-  font-family: HelveticaNeue;
   font-size: 14px;
   color: #5A6872;
 }
@@ -246,7 +240,7 @@ a.contents {
 }
 
 #installinstruction {
-  font-family: HelveticaNeue-Light;
+  font-weight: 100;
   font-size: 32px;
   color: #FFFFFF;
   letter-spacing: 0.96px;
@@ -261,7 +255,7 @@ a.contents {
 }
 
 #buttonlabel {
-  font-family: HelveticaNeue-Medium;
+  font-weight: 200;
   font-size: 14px;
   color: #2F5AA7;
   letter-spacing: 0;
